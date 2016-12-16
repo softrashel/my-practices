@@ -18,12 +18,16 @@ audio, video {
 	font-family: sans-serif;
 	margin: 0 auto;
 }
+#header{
+	height: 94px;
+	background: url(images/banner1.jpg);
+}
 #lang_button{
 	position: absolute;
-	margin-top: -80px;
+	margin-top: 10px;
 	margin-left: 920px;
 }
-#header{
+#menu_bar{
 	width: 1005px;
 	line-height: 43px;	
 	text-transform: uppercase;
@@ -31,20 +35,21 @@ audio, video {
 	list-style-type: none;
 	margin: -4px 0 0 0;
 }
-#header li{
+#menu_bar li{
 	display: inline-block;
 	padding: 0 6px;
 }
-#header a{
+#menu_bar a{
 	font-size: 11px;
 	font-weight: bold;
 	color: #000000;
 	text-decoration: none;	
 }
-#header a:hover{
+#menu_bar a:hover{
 	color: #ff0000;
 }
 #news{
+	font-weight: 500px;
 	height:30px;
 	background:#014E22;
 	color:#ffffff;
@@ -145,6 +150,18 @@ audio, video {
 	width: 515px;
 	float: left;
 	padding-left: 25px;
+}
+#slider_content img{
+	display: none;
+}
+#slider_button_area{
+	position: absolute;
+	width: 500px;
+	margin-top: 137px;
+	padding: 0 7px;
+}
+#slider_button_right{
+	float: right;
 }
 .center_box_a{
 	height: 370px;
