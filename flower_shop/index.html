@@ -1,0 +1,140 @@
+<html>
+
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="images/logo_30_blue.png" sizes="30x30">
+		<style type="text/css">
+			#header_box img {
+				margin: 0;
+				padding:0;				
+			}
+			.header{
+				height:110px;
+				background: url(images/header_bg-2.png) no-repeat bottom right #a3225d;
+			}
+			#result{
+				text-align: center;
+				font-size: 50px;
+				font-weight: bold;
+				color: #440522;
+				height: 100px;
+				width: 490px;
+			}
+			td {
+				background-color: #ffffff;
+			}
+			#logo{
+				margin-left:525px;
+				margin-top:-30px;
+				height:200px;
+				width:415px;
+				position:absolute;				
+			}
+			#pic{				
+				-webkit-transition: width 2s, height 2s, background-color 1s, -webkit-transform 1s;
+	 			transition: width 2s, height 2s, background-color 1s, transform 1s;
+			}
+			#pic:hover{
+				border-radius: 110px;
+				-webkit-transform: rotate(180deg);
+    			transform: rotate(180deg);
+			}
+			#banner_box {
+				height: 110px;				
+				margin-top: 50px;				
+				width: 580px;												
+			}
+			.box {
+				height: 85px;
+				width: 110px;
+				background: #811044 url(images/box-bg-sprite-220.png);
+				border: 1px solid white;
+				border-right-width: 0;
+				float: left;
+				padding-top: 25px;
+				color: white;
+				font-size: 50px;
+				font-weight: bold;
+				text-align: center;			
+	   			-webkit-transition: width 2s, height 2s, background-color 3s, -webkit-transform 3s;
+	 			transition: width 2s, height 2s, background-color 3s, transform 3s;
+			}
+			.box:last-child{
+				border-right-width: 1px;
+			}
+			.box:hover{
+				border-radius: 55px;
+				border-right-width: 1px;
+				background-position: 0px -110px;				
+				background-color: #4F8F0B;
+				color: yellow;
+				-webkit-transform: rotate(360deg);
+    			transform: rotate(360deg) scale(1.5);
+			}
+		</style>
+		<script type="text/javascript">
+			function result(){
+				var inp = document.getElementById("inp");
+				var res= document.getElementById("result");
+				res.innerHTML='<marquee>'+inp.value+'</marquee>';
+			}			
+		</script>		
+	</head>
+	
+	<body>
+		<div style="height:900px; width:960; border:10px solid #f5d4f4; margin:auto;">
+			<div Style="height:30px; padding:5px; background:#C52B72;">
+				<div style="position:absolute; width:950px;">
+					<marquee behavior="alternate"><img height="30" width="50" src="images/bd-flag.png"></marquee>
+				</div>
+				<a><img src="images/flag_01.gif"></a>
+				<a><img src="images/flag_02.gif"></a>
+				<a><img src="images/flag_03.gif"></a>
+				<a><img src="images/flag_04.gif"></a>
+				<a><img src="images/flag_05.gif"></a>
+				
+			</div>
+			<div id="header_box" class="header">
+				<a><img height="110" src="images/logo-s.png"></a>
+				<a><img height="110" src="images/logo-o.png"></a>
+				<a><img height="110" src="images/logo-j.png"></a>
+				<a><img height="110" src="images/logo-i.png"></a>
+				<a><img height="110" src="images/logo-b.png"></a>
+			</div>
+			<div Style="height:180px; padding:30px; background: url(images/banner_bg.jpg) no-repeat top right #ffffff;">
+				<a><img src="images/banner.jpg"></a>
+			</div>
+			<div style="height:40px; background:#440522;">
+				<table style=" padding:px;text-align: center; color: black;">
+					<tr>
+						<td>HOME</td>
+						<td>Previous</td>
+						<td><a href="../calender/index.html" target="_blank">Next</a></td>
+						<td>Download</td>
+					</tr>
+				</table>
+			</div>
+			<div style="height:380px; padding:30px; background:#811044;">
+				<div style="width:500px; float:left; background:#b70672;">
+					<div id="result"><marquee>Welcome to softRashel</marquee></div>
+					<input type="text" id="inp" value="" >
+					<input type="button" onclick="result()" value="click here">
+				</div>
+				<div id="logo">
+					<img id="pic" width="200" src="images/logo-s.png">
+					<img id="pic" width="200" src="images/softRashel.png">
+				</div>
+				<div style="clear:both;"></div>
+				<div id="banner_box">
+					<div class="box">S</div>
+					<div class="box">O</div>
+					<div class="box">J</div>
+					<div class="box">I</div>
+					<div class="box">B</div>		
+				</div>
+
+			</div>
+			<div style="padding:15px 20px; background:#333333;"></div>
+		</div>
+	</body>
+
+</html>
