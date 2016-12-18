@@ -146,6 +146,36 @@ body{
 	width: 358px;
 	float: right;
 }
+.widget{
+	background-color: #ffffff;
+	border: 1px solid #e2e2e2;
+	border-radius: 4px;
+	min-height: 100px;
+	margin-top: 35px;
+	padding: 35px;
+}
+.widget_title{
+	text-transform: uppercase;
+	color: #444;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+#widget_icon a{
+	color: #999999;
+	height: 22px;
+	width: 22px;
+	background-color: #ebebeb;
+	display: inline-block;
+	padding: 5px;
+	text-align: center;
+	margin-right: 10px;
+	border-radius: 2px;
+}
+#widget_icon a:hover{
+	color: #ffffff;
+	background-color: #ff6644;
+}
 #writter{
 	background-color: #ffffff;
 	border: 1px solid #e2e2e2;
