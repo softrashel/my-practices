@@ -65,7 +65,7 @@ body{
 #top_menu a:hover{
 	color: #ff6644;
 }
-.triangle:hover a::after{
+.triangle:hover >ul >li > a::after{
 	content: '';
 	width: 0px;
 	height: 0px;
@@ -73,10 +73,44 @@ body{
 	border-right: 7px solid transparent;
 	border-bottom: 7px solid #ff6644;	
 }
-#top_menu .triangle:hover a::after{
-	margin-top: 25px;
+#top_menu .triangle:hover >ul >li > a::after{
+	margin-top: 30px;
 	margin-left: -20px;
 	position: absolute;
+}
+#menu{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#menu ul{
+	display: none;
+	position: absolute;
+	list-style-type: none;
+	margin-left: 16px;
+	border-top: 4px solid #ff6644;
+	border-radius: 3px;
+	width: 200px;
+}
+#menu ul li{
+	width: 200px;
+}
+#menu ul li a{
+	color: #444;
+	background-color: #ffffff;
+	padding: 15px 20px;
+	border-left: 1px solid #bbbbbb;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	text-decoration: none;
+}
+#menu:hover ul{
+	display: block;
+}
+#menu ul li:hover a{
+	color: #ffffff;
+	background-color: #ff6644;
+	border: none;
 }
 /*****************************************************************************************************************************************/
 #container{
@@ -305,6 +339,9 @@ body{
 .popular_post{
 	display: inline-block;
 }
+.popular_post td{
+	float: left;
+}
 .popular_post img{
 	border-radius: 4px;
 	margin-right: 20px;
@@ -339,16 +376,24 @@ body{
 	display: inline-block;
 	height: 300px;
 }
-#instragram .overlay{
+.instragram_item .overlay{
 	width: 135px;
 	height: 146px;
 }
-#instragram:hover .overlay{
+.instragram_item:hover .overlay{
 	display: block;
 	opacity: 0.6;
 	background-color: #ea5b3b;
 }
-#instragram img{
+.instragram_item{
+	width: 135px;
+	height: 146px;
+	float: left;
+	padding: 2px;
+}
+.instragram_item img{
+	margin: 0;
+	padding: 0;
 	width: 135px;
 	height: 146px;
 	overflow: none;
