@@ -222,7 +222,8 @@ h3{
 #chief_id table td img{
 	margin: 0; 
 	padding: 3px;
-	vertical-align: top;	
+	vertical-align: top;
+	width: 65px;	
 }
 #chief_id table td p{
 	margin-top: 12px;
