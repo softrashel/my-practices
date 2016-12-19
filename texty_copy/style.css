@@ -171,6 +171,30 @@ body{
 .read_more:hover{
 	background-color: #ea5b3b;
 }
+.page_list{
+	margin: 80px 285px 60px 285px;
+}
+.page_list a{
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	padding: 6px 11.5px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+}
+.page_list a:hover{
+	color: #ffffff;
+	background-color: #ff6644;
+	border-radius: 3px;
+}
+.page_list .active{
+	color: #ffffff;
+	background-color: #ff6644;
+	border: none;
+	padding: 7px 12px;
+}
 /**************************************************************************************************************************************/
 #sidebar{
 	min-height: 1000px;
@@ -309,20 +333,20 @@ body{
 .catagories li a:hover{
 	color: #ff6644;
 }
-.instragram_box{
+#instragram_box{
 	display: inline-block;
 	height: 300px;
 }
-.instragram .overlay{
+#instragram .overlay{
 	width: 135px;
 	height: 146px;
 }
-.instragram:hover .overlay{
+#instragram:hover .overlay{
 	display: block;
 	opacity: 0.6;
 	background-color: #ea5b3b;
 }
-.instragram img{
+#instragram img{
 	width: 135px;
 	height: 146px;
 	overflow: none;
@@ -354,6 +378,12 @@ body{
 }
 #widget_search input[type=submit]:hover{
 	background-color: #ea5b3b;
+}
+#footer{
+	min-height: 430px;
+	background-color: #202020;
+	margin: 0 auto;
+	padding-top: 45px;
 }
 
 
