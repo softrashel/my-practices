@@ -99,33 +99,34 @@ body{
 	overflow: hidden;
 	border-bottom: 3px solid #ff6644;
 }
-.featured_image_box:hover img{
-	-moz-transform: scale(1.2);
-  	-webkit-transform: scale(1.2);
-  	transform: scale(1.2);
-}
-.featured_image_box .overlay{
+.overlay{
 	display: none;
-	width: 748px;
-	height: 419px;
 	position: absolute;
 	z-index: 999999;
 	background-color: transparent;
-	background-image: url(images/book-icon.png) no-repeat;
 	-moz-transition: all 1.5s;
   	-webkit-transition: all 1.5s;
   	transition: all 1.5s;
+}
+.featured_image_box .overlay{	
+	width: 748px;
+	height: 419px;
 }
 .featured_image_box:hover .overlay{
 	display: block;
 	opacity: 0.6;
 	background-color: #ea5b3b;
 }
-.featured_image{
+.featured_image_box img{
 	width: 100%;
 	-moz-transition: all 1.5s;
   	-webkit-transition: all 1.5s;
   	transition: all 1.5s;
+}
+.featured_image_box:hover img{
+	-moz-transform: scale(1.2);
+  	-webkit-transform: scale(1.2);
+  	transform: scale(1.2);
 }
 .post_body{
 	padding: 40px 74px 60px 50px;
@@ -308,11 +309,27 @@ body{
 .catagories li a:hover{
 	color: #ff6644;
 }
-.instragram img{
-
+.instragram_box{
+	display: inline-block;
+	height: 300px;
 }
-#widget_search{
-
+.instragram .overlay{
+	width: 135px;
+	height: 146px;
+}
+.instragram:hover .overlay{
+	display: block;
+	opacity: 0.6;
+	background-color: #ea5b3b;
+}
+.instragram img{
+	width: 135px;
+	height: 146px;
+	overflow: none;
+	border-radius: 2px;
+	-moz-transition: all 1.5s;
+  	-webkit-transition: all 1.5s;
+  	transition: all 1.5s;
 }
 #widget_search input[type=text]{
 	width: 60%;
