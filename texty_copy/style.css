@@ -65,16 +65,18 @@ body{
 #top_menu a:hover{
 	color: #ff6644;
 }
-#top_menu > li:hover a::before{
+.triangle:hover a::after{
 	content: '';
 	width: 0px;
 	height: 0px;
-	border-left: 8px solid transparent;
-	border-right: 8px solid transparent;
-	border-top: 8px solid #cccccc;
-	margin-left: 20px;
-	margin-top: -10px;
-	position: absolute;	
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid #ff6644;	
+}
+#top_menu .triangle:hover a::after{
+	margin-top: 25px;
+	margin-left: -20px;
+	position: absolute;
 }
 /*****************************************************************************************************************************************/
 #container{
@@ -384,13 +386,4 @@ body{
 	background-color: #202020;
 	margin: 0 auto;
 	padding-top: 45px;
-}
-
-
-.triangle{
-	width: 0px;
-	height: 0px;
-	border-left: 8px solid transparent;
-	border-right: 8px solid transparent;
-	border-bottom: 8px solid #ff6644;
 }
