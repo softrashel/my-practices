@@ -10,6 +10,7 @@ audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 body{
 	background-color: #f1f1f1;
 	width: 100%;
@@ -464,15 +465,18 @@ body{
 	color: #ff6644;
 }
 #tag_button a{
-	font-size: 18px;
+	font-size: 17px;
 	color: #ffffff;
 	background-color: #ff6644;
 	text-decoration: none;
-	border-radius: 3px;
+	border-radius: 2px;
+	padding: 8px 12px;
+	margin: 0 5px 8px 0;
+	display: inline-block;
 }
 #tag_button a:hover{
 	background-color: #ea5b3b;
-	border-radius: 3px;
+	border-radius: 2px;
 }
 #footer_bottom{
 	height: 40px;
