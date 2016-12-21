@@ -203,17 +203,17 @@ body{
 	margin-bottom: 35px;
 }
 /****************************************************************************************************************************/
-.read_more{
+.read_more a{
+	color: #ffffff;
 	font-size: 15px;
 	font-weight: bold;
-	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
 	background-color: #ff6644;
 	padding: 15px 10px;
-	border-radius: 2px;
+	border-radius: 2px;	
 }
-.read_more:hover{
+.read_more a:hover{
 	background-color: #ea5b3b;
 }
 .page_list{
