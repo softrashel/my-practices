@@ -159,11 +159,13 @@ body{
 }
 .featured_image_box img{
 	width: 100%;
+}
+.featured_image{
 	-moz-transition: all 1.5s;
   	-webkit-transition: all 1.5s;
-  	transition: all 1.5s;
+  	transition: all 1.5s;	
 }
-.featured_image_box:hover img{
+.featured_image_box:hover .featured_image{
 	-moz-transform: scale(1.2);
   	-webkit-transform: scale(1.2);
   	transform: scale(1.2);
@@ -238,7 +240,7 @@ body{
 }
 /*************************************************** Comments_area **************************************************************/
 #comment_area{
-	min-height: 500px;
+	min-height: 1000px;
 	background-color: #ffffff;
 	padding: 40px 50px 60px 50px;
 	color: #444;
