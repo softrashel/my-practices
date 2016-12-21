@@ -248,6 +248,14 @@ body{
 	font-weight: 700;
 	padding-bottom: 20px;
 }
+#comment_area h4{
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#comment_area p{
+	font-size: 17px;	
+}
 #comment_area img{
 	border-radius: 2px;
 	padding-right: 20px;
@@ -256,13 +264,9 @@ body{
 .first_comment{
 	padding-bottom: 80px;
 }
-.first_comment h4{
-	font-size: 16px;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-.first_comment p{
-	font-size: 17px;
+.second_comment{
+	padding-bottom: 80px;
+	padding-left: 30px;
 }
 .comment_date{
 	font-size: 13px;
