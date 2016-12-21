@@ -240,12 +240,13 @@ body{
 }
 /*************************************************** Comments_area **************************************************************/
 #comment_area{
+	color: #444;
 	min-height: 1000px;
 	background-color: #ffffff;
 	border: 1px solid #e2e2e2;
 	border-radius: 3px;
-	padding: 40px 50px 60px 50px;
-	color: #444;
+	padding: 40px 50px;
+	margin-bottom: 50px;
 }
 #comment_area h3{
 	font-size: 20px;
@@ -276,16 +277,42 @@ body{
 	font-size: 13px;
 	padding-bottom: 20px;
 }
-#discussion_box input[type=text]{
-	height: 250px;
-	width: 95%;
+.discussion_area input[type=text]{
 	color: #444;
 	font-size: 15px;
 	background-color: #f1f1f1;
 	border: 2px solid #e2e2e2;
-	border-radius: 5px;
+	border-radius: 4px;
 	margin-top: 20px;
+}
+#discussion_box input[type=text]{
+	height: 250px;
+	width: 95%;
 	padding: 15px;
+}
+.discussion_id input[type=text]{
+	height: 30px;
+	width: 280px;
+	padding: 5px 15px;
+}
+#subscribe_comment input[type=submit]{
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	width: 100%;
+	height: 45px;
+	border: none;
+	border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #ff6644;
+}
+#subscribe_comment input[type=submit]:hover{
+	background-color: #ea5b3b;
+}
+#comment_footer{
+	font-size: 17px;
+	color: #878787;
 }
 /*************************************************** sidebar_area ***************************************************************/
 #sidebar{
