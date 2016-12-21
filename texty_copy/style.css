@@ -353,10 +353,16 @@ textarea{
 	border: 2px solid #e2e2e2;
 	border-radius: 4px;
 }
+textarea:focus{
+	border: 2px solid #ff6644;
+}
 .discussion_id input[type=text]{
 	height: 30px;
 	width: 280px;
 	padding: 5px 15px;
+}
+.discussion_id input:focus{
+	border: 2px solid #ff6644;
 }
 #subscribe_comment input[type=submit]{
 	color: #ffffff;
