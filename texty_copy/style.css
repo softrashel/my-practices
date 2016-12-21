@@ -242,6 +242,8 @@ body{
 #comment_area{
 	min-height: 1000px;
 	background-color: #ffffff;
+	border: 1px solid #e2e2e2;
+	border-radius: 3px;
 	padding: 40px 50px 60px 50px;
 	color: #444;
 }
@@ -273,6 +275,17 @@ body{
 .comment_date{
 	font-size: 13px;
 	padding-bottom: 20px;
+}
+#discussion_box input[type=text]{
+	height: 250px;
+	width: 95%;
+	color: #444;
+	font-size: 15px;
+	background-color: #f1f1f1;
+	border: 2px solid #e2e2e2;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 15px;
 }
 /*************************************************** sidebar_area ***************************************************************/
 #sidebar{
@@ -356,14 +369,14 @@ body{
 	line-height: 24px;
 }
 #widget_email_subscribe input[type=text]{
-	width: 95%;
 	height: 40px;
+	width: 95%;
+	color: #444;
+	background-color: #f7f7f7;
 	border: 1px solid #cccccc;
 	border-radius: 3px;
-	background-color: #f7f7f7;
 	margin-top: 15px;
 	padding-left: 10px;
-	color: #444;
 }
 #widget_email_subscribe input[type=submit]{
 	width: 100%;
@@ -417,11 +430,11 @@ body{
 }
 #instragram_box{
 	display: inline-block;
-	height: 300px;
+	height: 285px;
 }
 .instragram_item .overlay{
-	width: 135px;
-	height: 146px;
+	width: 130px;
+	height: 141px;
 }
 .instragram_item:hover .overlay{
 	display: block;
@@ -429,16 +442,16 @@ body{
 	background-color: #ea5b3b;
 }
 .instragram_item{
-	width: 135px;
-	height: 146px;
+	width: 130px;
+	height: 141px;
 	float: left;
-	padding: 2px;
+	padding: 3px;
 }
 .instragram_item img{
 	margin: 0;
 	padding: 0;
-	width: 135px;
-	height: 146px;
+	width: 130px;
+	height: 141px;
 	overflow: none;
 	border-radius: 2px;
 	-moz-transition: all 1.5s;
