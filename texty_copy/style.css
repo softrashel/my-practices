@@ -240,6 +240,56 @@ body{
 	border: none;
 	padding: 7px 12px;
 }
+#button a{
+	color: #ffffff;
+	font-size: 16px;
+	text-decoration: none;
+	background-color: #dddddd;
+	padding: 5px 12px;
+}
+#button a:hover{
+	background-color: #ff6644;	
+}
+#link{
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: -49px;
+	padding: 0 49px;
+	background-color: #f8f8f8;
+}
+#personal_link{
+	height: 50px;
+	width: 380px;
+	float: left;
+	margin-top: 15px;
+}
+#personal_link a{
+	color: #c3c3c3;
+	font-size: 16px;
+	text-decoration: none;
+	padding-right: 20px;	
+}
+#personal_link a:hover{
+	color: #ff6644;
+}
+#social_link{
+	height: 50px;
+	width: 220px;
+	float: right;
+	margin-top: 15px;
+}
+#social_link a{
+	color: #c3c3c3;
+	padding: 7px;
+	margin-right: 7px;
+	border: 2px solid #dddddd;
+	border-radius: 19px;
+}
+#social_link a:hover{
+	color: #ffffff;
+	background-color: #337ab7;
+}
 /*************************************************** Comments_area **************************************************************/
 #comment_area{
 	color: #444;
