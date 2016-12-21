@@ -239,16 +239,34 @@ body{
 /*************************************************** Comments_area **************************************************************/
 #comment_area{
 	min-height: 500px;
-	background-color: #bbb;
+	background-color: #ffffff;
 	padding: 40px 50px 60px 50px;
+	color: #444;
 }
 #comment_area h3{
 	font-size: 20px;
-	color: #000;
-	padding-bottom: 15px;
+	font-weight: 700;
+	padding-bottom: 20px;
 }
 #comment_area img{
 	border-radius: 2px;
+	padding-right: 20px;
+	float: left;
+}
+.first_comment{
+	padding-bottom: 80px;
+}
+.first_comment h4{
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.first_comment p{
+	font-size: 17px;
+}
+.comment_date{
+	font-size: 13px;
+	padding-bottom: 20px;
 }
 /*************************************************** sidebar_area ***************************************************************/
 #sidebar{
