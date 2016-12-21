@@ -316,7 +316,8 @@ body{
 	text-transform: uppercase;
 }
 #comment_area p{
-	font-size: 17px;	
+	font-size: 17px;
+	margin-left: 80px;	
 }
 #comment_area img{
 	border-radius: 2px;
