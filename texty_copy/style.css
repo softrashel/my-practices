@@ -290,12 +290,26 @@ body{
 	color: #ffffff;
 	background-color: #337ab7;
 }
-/*************************************************** Comments_area **************************************************************/
-#author img{
-	height: 120px;
-	width: 120px;
-	border-radius: 60px;
+#author{
+	margin: 50px 0;
+	color: #444;
 }
+#author img{
+	height: 110px;
+	width: 110px;
+	border-radius: 55px;
+	float: left;
+	margin-right: 30px;
+}
+#author h4{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+#author p{
+	font-size: 17px;
+}
+/*************************************************** Comments_area **************************************************************/
 #comment_area{
 	color: #444;
 	min-height: 1000px;
@@ -317,7 +331,7 @@ body{
 }
 #comment_area p{
 	font-size: 17px;
-	margin-left: 80px;	
+	margin-left: 80px;
 }
 #comment_area img{
 	border-radius: 2px;
