@@ -248,7 +248,7 @@ body{
 	padding: 5px 12px;
 }
 #button a:hover{
-	background-color: #ff6644;	
+	background-color: #ff6644;
 }
 #link{
 	width: 100%;
@@ -325,13 +325,17 @@ body{
 	padding-bottom: 20px;
 }
 #comment_area h4{
+	width: 500px;
 	font-size: 16px;
 	font-weight: 700;
 	text-transform: uppercase;
+	margin-bottom: 7px;
+	float: left;
 }
 #comment_area p{
 	font-size: 17px;
 	margin-left: 80px;
+	margin-top: 10px;
 }
 #comment_area img{
 	border-radius: 2px;
@@ -345,9 +349,24 @@ body{
 	padding-bottom: 80px;
 	padding-left: 30px;
 }
+.second_comment h4{
+	margin-right: 35px;
+}
 .comment_date{
-	font-size: 13px;
-	padding-bottom: 20px;
+	font-size: 15px;
+}
+.reply_button a{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #dddddd;
+	padding: 5px 12px;
+	float: right;
+}
+.reply_button a:hover{
+	background-color: #ff6644;
 }
 .discussion_area input[type=text]{
 	color: #444;
