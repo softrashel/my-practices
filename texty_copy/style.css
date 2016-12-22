@@ -308,6 +308,7 @@ body{
 }
 #author p{
 	font-size: 17px;
+	line-height: 24px;
 }
 /*************************************************** Comments_area **************************************************************/
 #comment_area{
@@ -336,6 +337,7 @@ body{
 	font-size: 17px;
 	margin-left: 80px;
 	margin-top: 10px;
+	line-height: 24px;
 }
 #comment_area img{
 	border-radius: 2px;
