@@ -104,7 +104,7 @@ body{
 	border-right: 1px solid #dddddd;
 	border-bottom: 1px solid #dddddd;
 	text-decoration: none;
-	text-transform: none;
+	text-transform: capitalize;
 }
 #menu:hover ul{
 	display: block;
