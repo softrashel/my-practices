@@ -19,8 +19,18 @@ body{
 }
 
 #topbar{
-	height: 50px;
 	background-color: #d9372a;
+	padding: 17px 0;
+}
+#topbar_heading{
+	width: 1200px;
+	margin: 0 auto;
+}
+#topbar h4{
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	float: left;
 }
 #wraper{
 	height: 100px;
