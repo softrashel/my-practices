@@ -1,0 +1,19 @@
+html, body, div, span,object, iframe,
+h1, h2, h3, h4, h5, h6, p,ul, li,tr, th,
+td,footer, header,menu,output,section,
+summary,time, mark,
+audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	background-color: #f1f1f1;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
