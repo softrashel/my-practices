@@ -12,7 +12,7 @@ audio, video {
 }
 
 body{
-	background-color: #f1f1f1;
+	background-color: #f9f9f9;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -30,7 +30,36 @@ body{
 	height: 150px;
 	background-color: #ffffff;
 }
+#container{
+	width: 100%;
+	min-height: 1000px;
+	margin: 0 auto;
+}
 #home_featured{
-	height: 400px;
+	height: 300px;
 	background-color: #ededed;
+	padding: 60px 70px;
+	margin-bottom: 60px;
+}
+#home_featured_left{
+	width: 46%;
+	float: left;
+	padding-right: 40px;
+}
+#home_featured_left h3{
+	color: #242424;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+#home_featured_left p{
+	color: #606060;
+	font-size: 17px;
+	margin-bottom: 40px;
+}
+#home_featured_right{
+	width: 49%;
+	float: right;
+	padding: 8px;
+	background-color: #ffffff;
 }
