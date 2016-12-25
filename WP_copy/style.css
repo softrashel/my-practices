@@ -138,9 +138,17 @@ h3{
 .post_right{
 	float: left;
 }
-#footer{
-	height: 100px;
+#footer_area{
 	background-color: #121921;
+	padding: 45px 0;
+}
+#footer{
+	width: 1200px;
+	margin: 0 auto;
+}
+#footer p{
+	color: #ffffff;
+	font-size: 24px;
 }
 #footer_bottom{
 	height: 550px;
