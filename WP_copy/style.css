@@ -32,9 +32,13 @@ body{
 	font-weight: 700;
 	float: left;
 }
-#wraper{
-	height: 100px;
+#wraper_area{
 	background-color: #1796c6;
+	padding: 19px 0 14px 0;
+}
+#wraper{
+	width: 1200px;
+	margin: 0 auto;
 }
 #header{
 	height: 150px;
