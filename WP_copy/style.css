@@ -29,19 +29,30 @@ h3{
 	border: 1px solid #e4e4e4;
 	border-radius: 3px;
 }
-#topbar{
+#topbar_area{
 	background-color: #d9372a;
-	padding: 17px 0;
+	padding: 13.5px 0;
 }
-#topbar_heading{
+#topbar{
 	width: 1200px;
 	margin: 0 auto;
 }
-#topbar h4{
+#topbar a{
 	color: #ffffff;
+	text-decoration: none;
+}
+#topbar_heading{
 	font-size: 18px;
 	font-weight: 700;
-	float: left;
+	float: left;	
+}
+#topbar_button{
+	font-size: 14px;
+	font-weight: 600;
+	padding: 5px 20px;
+	background-color: #34ad5d;
+	border-radius: 3px;
+	float: right;
 }
 #wraper_area{
 	background-color: #1796c6;
@@ -63,29 +74,48 @@ h3{
 	color: #606060;
 	font-size: 14px;
 }
-#home_featured_area{
+#featured_area{
 	background-color: #ededed;
 	padding: 60px 0;
 	margin-bottom: 60px;
 }
-#home_featured{
+#featured{
 	width: 1200px;
 	margin: 0 auto;
 }
-#home_featured h3{
+#featured h3{
 	margin-bottom: 20px;
 }
-#home_featured p{
+#featured p{
 	color: #606060;
 	font-size: 17px;
 	margin-bottom: 40px;
 }
-#home_featured_left{
+#featured_content{
 	width: 47%;
 	float: left;
 	padding-right: 35px;
 }
-#home_featured_right{
+.button{
+	padding: 10px 30px;
+	border-radius: 3px;
+	float: left;
+}
+.button a{
+	color: #ffffff;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#button_1{
+	background-color: #855085;
+	margin-right: 10px;
+}
+#button_2{
+	background-color: #7fba5c;
+}
+#home_featured_image{
 	width: 50%;
 	float: right;
 }
