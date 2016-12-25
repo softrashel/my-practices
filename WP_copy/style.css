@@ -17,3 +17,20 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
+#topbar{
+	height: 50px;
+	background-color: #d9372a;
+}
+#wraper{
+	height: 100px;
+	background-color: #1796c6;
+}
+#header{
+	height: 150px;
+	background-color: #ffffff;
+}
+#home_featured{
+	height: 400px;
+	background-color: #ededed;
+}
