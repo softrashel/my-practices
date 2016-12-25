@@ -40,9 +40,23 @@ body{
 	width: 1200px;
 	margin: 0 auto;
 }
-#header{
-	height: 150px;
+#header_area{
 	background-color: #ffffff;
+	padding: 52px 0;
+}
+#header{
+	width: 1200px;
+	margin: 0 auto;
+}
+#header h3{
+	color: #242424;
+	font-size: 24px;
+	font-weight: 600;
+	padding-bottom: 12px;
+}
+#header p{
+	color: #606060;
+	font-size: 14px;
 }
 #container{
 	width: 100%;
