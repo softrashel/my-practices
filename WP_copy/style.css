@@ -99,6 +99,25 @@ h3{
 	color: #606060;
 	font-size: 14px;
 }
+#search_box{
+	width: 325px;
+	float: right;
+	margin-top: 10px;
+	border: 1px solid #dddddd;
+}
+#search_box input{
+	height: 37px;
+	width: 280px;
+	color: #8b8b8b;
+	font-size: 14px;
+	padding: 0 10px;
+	border: none;1
+}
+#search_box a{
+	color: #ffffff;
+	background-color: #1796c6;
+	padding: 10px 13px;
+}
 #featured_area{
 	background-color: #ededed;
 	padding: 60px 0;
