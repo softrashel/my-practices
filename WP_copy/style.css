@@ -33,6 +33,9 @@ h3{
 	background-color: #d9372a;
 	padding: 13.5px 0;
 }
+#topbar_area:hover{
+	background-color: #cd3125;
+}
 #topbar{
 	width: 1200px;
 	margin: 0 auto;
@@ -53,6 +56,9 @@ h3{
 	background-color: #34ad5d;
 	border-radius: 3px;
 	float: right;
+}
+#topbar_area:hover #topbar_button{
+	padding-right: 30px;
 }
 #wraper_area{
 	background-color: #1796c6;
@@ -112,8 +118,14 @@ h3{
 	background-color: #855085;
 	margin-right: 10px;
 }
+#button_1:hover{
+	background-color: #5b365b;
+}
 #button_2{
 	background-color: #7fba5c;
+}
+#button_2:hover{
+	background-color: #76b550;	
 }
 #home_featured_image{
 	width: 50%;
