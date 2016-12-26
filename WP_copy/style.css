@@ -49,6 +49,10 @@ h3{
 	font-weight: 700;
 	float: left;	
 }
+#topbar_heading span{
+	border: 1px dashed #ffffff;
+	padding: 0 5px;
+}
 #topbar_button{
 	font-size: 14px;
 	font-weight: 600;
@@ -67,6 +71,21 @@ h3{
 #wraper{
 	width: 1200px;
 	margin: 0 auto;
+}
+#wraper_menu{
+	float: right;
+	margin-top: 20px;
+}
+#wraper_menu a{
+	color: #8cd5f0;
+	text-decoration: none;
+	padding-left: 35px;
+}
+#wraper_menu a:hover{
+	color: #ffffff;
+}
+.active{
+	color: #ffffff;
 }
 #header_area{
 	background-color: #ffffff;
