@@ -83,12 +83,17 @@ h3{
 	margin-top: 20px;
 }
 #wraper_menu a{
+	font-size: 17px;
 	color: #8cd5f0;
 	text-decoration: none;
-	padding-left: 35px;
+	padding-left: 25px;
 }
 #wraper_menu a:hover{
 	color: #ffffff;
+}
+#wraper_menu i{
+	font-size: 15px;
+	padding-right: 7px;
 }
 .active{
 	color: #ffffff;
@@ -265,7 +270,7 @@ h3{
 	width: 1200px;
 	margin: 0 auto;
 }
-#footer p{
+#footer h5{
 	color: #ffffff;
 	font-size: 24px;
 }
