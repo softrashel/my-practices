@@ -91,7 +91,8 @@ h3{
 	font-size: 17px;
 	color: #8cd5f0;
 	text-decoration: none;
-	padding-left: 25px;
+	margin-left: 25px;
+	padding: 40px 0;
 }
 #wraper_menu a:hover{
 	color: #ffffff;
@@ -100,7 +101,7 @@ h3{
 	font-size: 15px;
 	padding-right: 7px;
 }
-.active{
+#wraper_menu .active{
 	color: #ffffff;
 }
 #header_area{
@@ -169,6 +170,7 @@ h3{
 #featured_content p{
 	color: #606060;
 	font-size: 17px;
+	line-height: 25px;
 	margin-bottom: 40px;
 }
 .button{
