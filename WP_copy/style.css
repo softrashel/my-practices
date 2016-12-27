@@ -238,15 +238,31 @@ h3{
 #post_area img{
 	width: 360px;	
 }
+#post_area h4{
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+#post_area h4:hover{
+	color: #1796c6;
+}
+#post_area p{
+	color: #606060;
+	font-size: 14px;
+	line-height: 25px;
+}
 #post_left{
+	width: 378px;
 	float: left;
 	margin-right: 32px;
 }
 #post_middle{
+	width: 378px;
 	float: left;
 	margin-right: 32px;
 }
 #post_right{
+	width: 378px;
 	float: left;
 }
 .post_area{
@@ -255,19 +271,38 @@ h3{
 .post_area img{
 	width: 260px;	
 }
+.post_area h5{
+	font-size: 17px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.post_area h5:hover{
+	color: #1796c6;
+}
+.post_area p{
+	color: #606060;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+}
 .post_left{
+	width: 278px;
 	float: left;
 	margin-right: 29px;
 }
 .post_middle_1{
+	width: 278px;
 	float: left;
 	margin-right: 29px;
 }
 .post_middle_2{
+	width: 278px;
 	float: left;
 	margin-right: 29px;
 }
 .post_right{
+	width: 278px;
 	float: left;
 }
 #footer_area{
@@ -278,7 +313,7 @@ h3{
 	width: 1200px;
 	margin: 0 auto;
 }
-#footer h5{
+#footer h4{
 	color: #ffffff;
 	font-size: 23px;
 	float: left;
