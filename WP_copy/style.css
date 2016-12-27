@@ -55,6 +55,7 @@ h3{
 #topbar_heading span{
 	border: 1px dashed #ffffff;
 	padding: 0 5px;
+	-ms-transform: rotate(2deg); -webkit-transform: rotate(2deg); transform: rotate(2deg);
 }
 #topbar_button{
 	font-size: 14px;
@@ -306,9 +307,57 @@ h3{
 }
 #footer_bottom_area{
 	background-color: #ffffff;
-	padding: 50px 0;
+	border-bottom: 1px solid #efefef;
 }
 #footer_bottom{
+	width: 1200px;
+	margin: 0 auto;
+}
+.footer_box{
+	width: 335px;
+	padding: 50px 0;
+	float: left;
+}
+.footer_box_head{
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.footer_box li{
+	list-style-type: none;
+	padding: 8px 0;
+	border-bottom: 1px solid #efefef;
+}
+.footer_box li i{
+	font-size: 14px;
+	color: #1bade4;
+	padding-right: 10px;
+}
+.footer_box li a{
+	font-size: 14px;
+	color: #1796c6;
+	text-decoration: none;
+}
+.footer_box li a:hover{
+	color: #1bade4;
+}
+#footer_box_one{
+	padding-right: 48px;
+	border-right: 1px solid #efefef;
+}
+#footer_box_two{
+	padding-left: 48px;
+	padding-right: 48px;
+	border-right: 1px solid #efefef;
+}
+#footer_box_three{
+	padding-left: 48px;
+}
+#footer_wraper_area{
+	background-color: #ffffff;
+	padding: 50px 0;
+}
+#footer_wraper{
 	width: 1200px;
 	margin: 0 auto;
 }
