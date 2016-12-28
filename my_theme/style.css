@@ -40,9 +40,8 @@ body{
 }
 #menubar_area{
 	width: 100%;
-	background-color: #ffffff;
-	background-image: linear-gradient(to bottom, #ffffff, #d42222);
-	border-top: 1px solid #ffffff;
+	background-color: #4abbe6;
+	background-image: linear-gradient(to bottom, #4abbe6, #1796c6);
 }
 #menubar{
 	height: 50px;
@@ -50,26 +49,40 @@ body{
 	margin: 0 auto;
 	margin-bottom: 20px;
 }
+#menubar .active{
+	color: #ffffff;
+}
 #menubar li{
 	list-style-type: none;
 	display: inline-block;
-	padding: 15px 25px 15px 0;
 }
 #menubar a{
-	color: #ffffff;
+	color: #8cd5f0;
 	font-size: 17px;
 	font-weight: 600;
 	text-decoration: none;
-	text-transform: uppercase;
 }
-#menubar_left{
+#menubar a:hover{
+	color: #ffffff;
+}
+#menubar_left li{
 	float: left;
+	padding: 15px 25px 15px 0;
 }
 #menubar_right{
 	float: right;
 }
-#menubar a:hover{
-	color: #d83b3b;
+#menubar_right li{
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	margin-top: 5px;
+	background-color: #0087be;
+	border-radius: 22px;
+}
+#menubar_right span{
+	font-size: 20px;
+	margin-top: 10px;
 }
 #container{
 	width: 1200px;
