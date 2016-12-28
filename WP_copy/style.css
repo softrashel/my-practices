@@ -199,7 +199,7 @@ h3{
 #button_2:hover{
 	background-color: #76b550;	
 }
-#home_featured_image{
+#featured_image{
 	width: 50%;
 	float: right;
 }
@@ -238,18 +238,20 @@ h3{
 #post_area img{
 	width: 360px;	
 }
-#post_area h4{
+#post_area a{
+	color: #000000;
 	font-size: 18px;
 	font-weight: 600;
-	margin-bottom: 10px;
+	text-decoration: none;
 }
-#post_area h4:hover{
+#post_area a:hover{
 	color: #1796c6;
 }
 #post_area p{
 	color: #606060;
 	font-size: 14px;
 	line-height: 25px;
+	margin-top: 10px;
 }
 #post_left{
 	width: 378px;
@@ -267,24 +269,25 @@ h3{
 }
 .post_area{
 	margin-bottom: 100px;
+	text-align: center;
 }
 .post_area img{
 	width: 260px;	
 }
-.post_area h5{
+.post_area a{
+	color: #000000;
 	font-size: 17px;
 	font-weight: 600;
-	margin-bottom: 10px;
-	text-align: center;
+	text-decoration: none;
 }
-.post_area h5:hover{
+.post_area a:hover{
 	color: #1796c6;
 }
 .post_area p{
 	color: #606060;
 	font-size: 14px;
 	line-height: 25px;
-	text-align: center;
+	margin-top: 10px;
 }
 .post_left{
 	width: 278px;
