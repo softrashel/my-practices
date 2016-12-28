@@ -42,12 +42,34 @@ body{
 	width: 100%;
 	background-color: #ffffff;
 	background-image: linear-gradient(to bottom, #ffffff, #d42222);
+	border-top: 1px solid #ffffff;
 }
 #menubar{
-	min-height: 50px;
+	height: 50px;
 	width: 1200px;
 	margin: 0 auto;
 	margin-bottom: 20px;
+}
+#menubar li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px 25px 15px 0;
+}
+#menubar a{
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#menubar_left{
+	float: left;
+}
+#menubar_right{
+	float: right;
+}
+#menubar a:hover{
+	color: #d83b3b;
 }
 #container{
 	width: 1200px;
@@ -86,7 +108,7 @@ body{
 	background-color: #dddddd;
 }
 #footer_menu{
-	min-height: 50px;
+	height: 50px;
 	width: 1200px;
 	margin: 0 auto;	
 }
