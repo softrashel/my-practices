@@ -48,8 +48,8 @@ body{
 #menubar{
 	height: 50px;
 	width: 1215px;
-	margin: 0 auto;
 	padding-right: 15px;
+	margin: 0 auto;
 	margin-bottom: 50px;
 }
 #menubar .active{
@@ -64,6 +64,7 @@ body{
 	font-size: 17px;
 	font-weight: 600;
 	text-decoration: none;
+	padding: 15px;
 }
 #menubar li:hover{
 	background-color: #d56979;
@@ -97,18 +98,17 @@ body{
 #menubar_right{
 	float: right;
 }
-#menubar_right li{
-	height: 40px;
-	width: 40px;
+#menubar_right a{
+	height: 20px;
+	width: 20px;
 	text-align: center;
-	margin-top: 5px;
-	border-radius: 22px;
+	border-radius: 24px;
+	display: inline-block;
 }
 #menubar_right span{
 	font-size: 20px;
-	margin-top: 10px;
 }
-#menubar #menubar_right li:hover{
+#menubar #menubar_right a:hover{
 	background-color: #e7b9bc;
 }
 #menubar #menubar_right li:hover span{
@@ -131,6 +131,52 @@ body{
 }
 .post_body img{
 	padding: 10px;
+}
+.post_details{
+	padding: 50px;
+	padding-top: 20px;
+}
+.post_title{
+	margin-bottom: 20px;
+}
+.post_title h2{
+	float: left;
+	width: 550px;
+}
+.post_title a{
+	color: #444;
+	font-size: 28px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.post_title a:hover{
+	color: #cc5767;
+}
+.post_title span{
+	color: #888888;
+	float: right;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.post_content p{
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 35px;
+	text-align: justify;
+}
+.read_more a{
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #d56979;
+	padding: 15px;
+	border-radius: 2px;	
+	float: right;
+}
+.read_more a:hover{
+	background-color: #cc5767;
 }
 #sidebar_area{
 	width: 400px;
