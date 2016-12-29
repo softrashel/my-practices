@@ -39,8 +39,8 @@ body{
 }
 #menubar_area{
 	width: 100%;
-	background-color: #4abbe6;
-	background-image: linear-gradient(to bottom, #4abbe6, #1796c6);
+	background-color: #e7b3b7;
+	background-image: linear-gradient(to bottom, #e7b3b7, #ef8496);
 }
 #menubar{
 	height: 50px;
@@ -56,7 +56,7 @@ body{
 	display: inline-block;
 }
 #menubar a{
-	color: #8cd5f0;
+	color: #df5f69;
 	font-size: 17px;
 	font-weight: 600;
 	text-decoration: none;
@@ -76,7 +76,7 @@ body{
 	width: 40px;
 	text-align: center;
 	margin-top: 5px;
-	background-color: #0087be;
+	background-color: #e3acaf;
 	border-radius: 22px;
 }
 #menubar_right span{
@@ -84,7 +84,7 @@ body{
 	margin-top: 10px;
 }
 #menubar #menubar_right li:hover{
-	background-color: #337ab7;
+	background-color: #e7b9bc;
 }
 #container{
 	width: 1200px;
@@ -94,12 +94,15 @@ body{
 	width: 780px;
 	float: left;
 }
-#post_body{
-	min-height: 500px;
+.post_body{
+	min-height: 800px;
 	width: 770px;
 	margin-bottom: 50px;
 	border-radius: 10px;
 	background-color: #ffffff;
+}
+.post_body img{
+	padding: 10px;
 }
 #sidebar_area{
 	width: 400px;
