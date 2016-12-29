@@ -24,7 +24,7 @@ body{
 	background-position: center bottom;
 }
 #header{
-	color: #e9ffff;
+	color: #ef8496;
 	text-align: center;
 	padding-top: 100px;
 }
@@ -32,6 +32,10 @@ body{
 	font-size: 50px;
 	font-weight: bold;
 	text-align: center;
+	text-shadow: 2px 2px #ffffff,
+				 2px -2px #ffffff,
+				-2px 2px #ffffff,
+				-2px -2px #ffffff;
 }
 #tag_line{
 	font-size: 20px;
@@ -39,13 +43,13 @@ body{
 }
 #menubar_area{
 	width: 100%;
-	background-color: #e7b3b7;
-	background-image: linear-gradient(to bottom, #e7b3b7, #ef8496);
+	background-color: #ef8496;
 }
 #menubar{
 	height: 50px;
-	width: 1200px;
+	width: 1215px;
 	margin: 0 auto;
+	padding-right: 15px;
 	margin-bottom: 50px;
 }
 #menubar .active{
@@ -56,17 +60,39 @@ body{
 	display: inline-block;
 }
 #menubar a{
-	color: #df5f69;
+	color: #ffffff;
 	font-size: 17px;
 	font-weight: 600;
 	text-decoration: none;
 }
-#menubar a:hover{
-	color: #ffffff;
+#menubar li:hover{
+	background-color: #d56979;
 }
 #menubar_left li{
 	float: left;
-	padding: 15px 25px 15px 0;
+	padding: 15px;
+}
+#menu ul{
+	display: none;
+	position: absolute;
+	list-style-type: none;
+	margin-top: 15px;
+	margin-left: -15px;
+	width: 150px;
+}
+#menu ul li{
+	width: 150px;
+	background-color: #d56979;
+}
+#menu ul li:hover{
+	background-color: #ef8496;
+}
+#menu ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#menu:hover ul{
+	display: block;
 }
 #menubar_right{
 	float: right;
@@ -76,7 +102,6 @@ body{
 	width: 40px;
 	text-align: center;
 	margin-top: 5px;
-	background-color: #e3acaf;
 	border-radius: 22px;
 }
 #menubar_right span{
@@ -85,6 +110,9 @@ body{
 }
 #menubar #menubar_right li:hover{
 	background-color: #e7b9bc;
+}
+#menubar #menubar_right li:hover span{
+	color: #ffffff;
 }
 #container{
 	width: 1200px;
