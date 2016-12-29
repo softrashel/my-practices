@@ -295,10 +295,32 @@ body{
 	height: 50px;
 	float: right;
 	text-align: center;
-	background-color: #b26b93;	
+	background-color: #ef8496;	
 }
 #footer a{
 	font-size: 17px;
 	color: #551a8b;
+	text-decoration: none;
+}
+#footer_bottom_area{
+	width: 100%;
+	background-color: #d56979;
+}
+#footer_bottom{
+	width: 1100px;
+	min-height: 250px;
+	padding: 50px 115px 50px 85px;
+	margin: 0 auto;
+}
+#footer_bottom_link{
+	min-height: 50px;
+	width: 1130px;
+	margin: 0 auto;
+	text-align: center;
+	border-top: 1px solid #dddddd;
+}
+#footer_bottom_link a{
+	font-size: 17px;
+	color: #dddddd;
 	text-decoration: none;
 }
