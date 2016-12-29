@@ -14,7 +14,7 @@ body{
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #84e1e2;
+	background-color: #f1f1f1;
 }
 #wraper{
 	background-image:url(images/head_phone.png);
@@ -24,10 +24,9 @@ body{
 	background-position: center bottom;
 }
 #header{
-	width: 250px;
 	color: #e9ffff;
+	text-align: center;
 	padding-top: 100px;
-	padding-left: 400px;
 }
 #site_name{
 	font-size: 50px;
@@ -47,7 +46,7 @@ body{
 	height: 50px;
 	width: 1200px;
 	margin: 0 auto;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 #menubar .active{
 	color: #ffffff;
@@ -84,10 +83,12 @@ body{
 	font-size: 20px;
 	margin-top: 10px;
 }
+#menubar #menubar_right li:hover{
+	background-color: #337ab7;
+}
 #container{
 	width: 1200px;
 	margin: 0 auto;
-	margin-bottom: 20px;
 }
 #post_area{
 	width: 780px;
@@ -95,11 +96,10 @@ body{
 }
 #post_body{
 	min-height: 500px;
-	width: 780px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+	width: 770px;
+	margin-bottom: 50px;
 	border-radius: 10px;
-	background-color: #f1f1f1;
+	background-color: #ffffff;
 }
 #sidebar_area{
 	width: 400px;
@@ -108,25 +108,25 @@ body{
 #sidebar{
 	min-height: 300px;
 	width: 400px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	border-radius: 10px;
-	background-color: #f1f1f1;
+	background-color: #ffffff;
 }
 #footer_area{
 	width: 100%;
-	background-color: #f1f1f1;
+	background-color: #ffffff;
 }
 #footer{
 	width: 100%;
-	background-color: #dddddd;
+	background-color: #bbbbbb;
 }
 #footer_menu{
-	height: 50px;
+	height: 100px;
 	width: 1200px;
 	margin: 0 auto;	
 }
 #footer_wraper{
-	min-height: 250px;
+	min-height: 400px;
 	width: 1200px;
 	margin: 0 auto;
 }
