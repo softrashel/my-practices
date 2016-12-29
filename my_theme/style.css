@@ -153,6 +153,26 @@ body{
 	font-size: 17px;
 	line-height: 24px;
 }
+.widget{
+	padding: 35px;
+}
+.widget_title{
+	color: #444;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.instragram_item{
+	float: left;
+	padding: 5px;
+}
+.instragram_item img{
+	margin: 0;
+	padding: 0;
+	width: 155px;
+	border-radius: 5px;
+}
 #footer_area{
 	width: 100%;
 	background-color: #ffffff;
