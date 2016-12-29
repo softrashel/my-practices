@@ -116,15 +116,16 @@ body{
 	background-color: #ffffff;
 }
 #cover_image{
+	height: 200px;
 	width: 380px;
 	padding: 10px;
 }
 #profile_image{
-	width: 120px;
-	height: 120px;
+	width: 100px;
+	height: 100px;
 	position: absolute;
-	border-radius: 65px;
-	border: 4px solid #e2e2e2;
+	border-radius: 55px;
+	border: 2px solid #e2e2e2;
 	margin-left: 190px;
 	margin-top: 30px;
 }
