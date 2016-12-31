@@ -178,32 +178,34 @@ body{
 	background-color: #cc5767;
 }
 #sidebar_area{
-	width: 400px;
+	width: 380px;
 	float: left;	
 }
 .sidebar{
 	min-height: 300px;
-	width: 400px;
+	width: 380px;
 	margin-bottom: 30px;
 	border-radius: 10px;
 	background-color: #ffffff;
+	padding: 10px;
 }
 #cover_image{
 	height: 200px;
 	width: 380px;
-	padding: 10px;
+	background-image: url(images/cover_bg.jpg);
+	background-size: cover;
+	border-radius: 3px;
 }
 #profile_image{
 	width: 100px;
 	height: 100px;
-	position: absolute;
 	border-radius: 55px;
 	border: 2px solid #e2e2e2;
 	margin-left: 190px;
 	margin-top: 30px;
 }
 #writter_detail{
-	padding: 35px;
+	padding: 25px;
 }
 #writter_title{
 	margin-bottom: 15px;
@@ -227,7 +229,7 @@ body{
 	line-height: 24px;
 }
 .widget{
-	padding: 35px;
+	padding: 25px;
 }
 .widget h3{
 	color: #444;
