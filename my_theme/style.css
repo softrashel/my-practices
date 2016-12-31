@@ -53,7 +53,7 @@ body{
 	margin-bottom: 50px;
 }
 #menubar .active{
-	color: #ffffff;
+	background-color: #d56979;
 }
 #menubar li{
 	list-style-type: none;
@@ -73,26 +73,25 @@ body{
 	float: left;
 	padding: 15px;
 }
-#menu ul{
+.menu ul{
 	display: none;
 	position: absolute;
 	list-style-type: none;
 	margin-top: 15px;
 	margin-left: -15px;
-	width: 150px;
+	width: 200px;
 }
-#menu ul li{
-	width: 150px;
+.menu ul li{
+	width: 200px;
 	background-color: #d56979;
 }
-#menu ul li:hover{
+#menubar .menu ul li:hover{
 	background-color: #ef8496;
 }
-#menu ul li a{
+.menu ul li a{
 	text-decoration: none;
-	text-transform: capitalize;
 }
-#menu:hover ul{
+.menu:hover ul{
 	display: block;
 }
 #menubar_right{
