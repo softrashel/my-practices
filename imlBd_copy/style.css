@@ -92,6 +92,16 @@ body{
 	background-image: url(images/slide_photo107.jpg);
 	background-repeat: no-repeat;
 }
+#push_button{
+	text-align: center;
+	padding-top: 150px;
+	position: 0 0;
+	height: 65px;
+	overflow: hidden;
+}
+#push_button:hover{
+	position: 0 -65px;
+}
 #banner_bottom{
 	min-height: 300px;
 	width: 1150px;
