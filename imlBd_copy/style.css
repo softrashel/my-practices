@@ -14,11 +14,11 @@ body{
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #fafafa;
+	background-color: #f1f1f1;
 }
 #wraper{
 	width: 100%;
-	background-color: #f1f1f1;
+	background-color: #fafafa;
 }
 #toper{
 	width: 1130px;
@@ -91,6 +91,20 @@ body{
 	margin: 20px auto;
 	background-image: url(images/slide_photo107.jpg);
 	background-repeat: no-repeat;
+}
+#banner_bottom{
+	min-height: 300px;
+	width: 1150px;
+	margin: 0 auto;
+}
+#container{
+	min-height: 800px;
+	width: 100%;
+	background-color: #ffffff;
+}
+#content{
+	width: 1150px;
+	margin: 0 auto;
 }
 #footer_area{
 	width: 100%;
