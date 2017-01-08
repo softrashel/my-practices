@@ -97,14 +97,34 @@ body{
 	width: 1150px;
 	margin: 0 auto;
 }
-#container{
-	min-height: 800px;
+#gallery{
 	width: 100%;
+	padding: 30px 0;
 	background-color: #ffffff;
 }
-#content{
+#product_area{
+	width: 1150px;
+	height: 160px;
+	margin: 0 auto;
+	border: 1px solid #f1f1f1;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.product_image{
+	height: 150px;
+	width: 150px;
+	margin: 5px 0;
+	float: left;
+	border-right: 1px solid #bbb;
+}
+.product_image img{
+	height: 150px;
+	width: 150px;
+}
+#container{
 	width: 1150px;
 	margin: 0 auto;
+	background-color: #ffffff;
 }
 #footer_area{
 	width: 100%;
