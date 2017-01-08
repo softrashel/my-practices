@@ -122,9 +122,38 @@ body{
 	width: 150px;
 }
 #container{
-	width: 1150px;
-	margin: 0 auto;
+	width: 100%;
 	background-color: #ffffff;
+	padding: 10px 0 80px 0;
+}
+#content{
+	width: 1150px;
+	height: 400px;
+	margin: 0 auto;
+	color: #444;
+}
+.content_image{
+	height: 230px;
+	width: 270px;
+	float: left;
+	margin-right: 23px;
+}
+.content_image img{
+	height: 225px;
+	width: 265px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #bbb;
+}
+.content_image h3{
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.content_image p{
+	font-size: 16px;
+	text-align: justify;
 }
 #footer_area{
 	width: 100%;
