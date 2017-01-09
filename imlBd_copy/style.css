@@ -88,7 +88,7 @@ body{
 #banner{
 	width: 1150px;
 	height: 346px;
-	margin: 20px auto;
+	margin: 20px auto 10px auto;
 	background-image: url(images/slide_photo107.jpg);
 	background-repeat: no-repeat;
 }
@@ -106,9 +106,66 @@ body{
 	position: 0 -65px;
 }
 #banner_bottom{
-	min-height: 300px;
 	width: 1150px;
 	margin: 0 auto;
+}
+.gallery_head{
+	width: 220px;
+	background-color: #cc3333;
+	margin-bottom: 5px;
+	padding: 8px 20px;
+}
+.gallery_head a{
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+	text-decoration: none;
+}
+.gallery_head:hover a{
+	text-decoration: underline;
+}
+#left{
+	width: 260px;
+	float: left;
+}
+#left img{
+	width: 260px;
+}
+#center{
+	width: 550px;
+	float: left;
+	margin: 0 40px;
+}
+#center h2{
+	font-size: 28px;
+	font-weight: 500;
+	color: #37adad;
+	margin-bottom: 20px;
+}
+#center p{
+	font-size: 14px;
+	color: #444;
+	text-align: justify;
+}
+#gallery_bottom{
+	width: 550px;
+	text-align: center;
+	background-color: #12582f;
+	padding: 5px 0;
+	margin: 30px 0 20px 0;
+}
+#gallery_bottom a{
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+	text-decoration: none;
+}
+#gallery_bottom:hover a{
+	text-decoration: underline;
+}
+#right{
+	width: 260px;
+	float: right;
 }
 #gallery{
 	width: 100%;
