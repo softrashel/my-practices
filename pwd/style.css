@@ -244,6 +244,11 @@ h3{
 	margin: 20px 0;
 	padding-bottom: 10px;
 }
+#notice{
+	font-size:13px;
+	font-weight:normal;
+	height:500px;
+}
 #footer{
 	height: 30px;
 	width: 100%;
