@@ -1,0 +1,82 @@
+.head{
+		text-align: center;
+		font-size: 50px;
+		color: blue;
+		font-family: italic;
+	}
+.leg{
+		text-align: center;
+		font-size: 50px;
+		color: yellow;
+		font-family: arial;
+		background-color: green;
+		width:1000px;
+	}
+.holi{
+		color: red;
+		font-weight: bold;
+	}
+.day_name{
+	background: #D0FDB3;
+	text-align: center;
+	font-weight: bold;
+	
+}
+.sat{
+	color: blue;
+	font-weight: bold;
+}
+.head{
+	text-align: center;
+	font-size: 30px;
+	color: #000099;
+	font-family: arial;
+}
+.box{
+	width: 132px;
+	height: 120px;
+	border: 1px solid #000000;
+	margin-right: 10px;
+	float: left;
+	border-radius: 8px;
+	background: url(images/boxbg.png);
+}
+.colorshade{
+	height: 25px;
+	background: url(images/shade.png);
+	margin-bottom: 10px;
+}
+#year{
+	position:absolute; 
+	margin-top:-5px;
+	color: #6B0983;
+	font-size: 40px;
+}			
+.monthbox td{
+	height: 60px;
+	width: 60px;
+	border: 1px solid #eeeeee;
+	background: none;
+	font-size: 35px;
+	font-family: arial;
+}
+.monthbox .day_name td{
+	height: 25px;
+	width: 60px;
+	font-size: 18px;
+}	
+.monthbox td:hover{
+	background: #dddddd;
+}
+.month_title{
+	font-size:34px;
+	font-family:arial;
+	color: #000088;
+	background: url(images/shade.png);
+	margin: 20px 0;
+}
+.month_box{
+	width: 48%;
+	float: left;
+	margin: 2px;
+}
