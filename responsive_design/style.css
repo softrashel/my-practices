@@ -107,17 +107,25 @@ input[type=checkbox].menue_controller{
 .author_info_box:hover{
 	background-color: #e8f2e8;
 }
-.author_info_box p{
-	color: #777;
+
+.author_details h3{
+	font-size: 18px;
+	margin: 20px 0;
 }
-.author_info_box i{
+.author_details p{
+	font-size: 16px;
+	color: #777;
+	margin: 0 0 5px;
+}
+.author_details i{
 	font-size: 30px;
 	color: #bbb;
+	margin-top: 10px;
 }
-.author_info_box a:hover i{
+.author_details a:hover i{
 	color: #54aeef;
 }
-.author_photo_box img{
+.author_image_box img{
 	width: 180px;
 }
 
@@ -253,7 +261,7 @@ input[type=checkbox].menue_controller{
 		padding: 20px;
 		margin: 8px;
 	}
-	.author_photo_box img{
+	.author_image_box img{
 		width: 130px;
 	}
 }
