@@ -50,17 +50,17 @@ a{
 }
 
 
-#menuebar input[type=checkbox]{
+input[type=checkbox].menue_controller{
   	display: none;
 }
 .regular_menue_area{
 	margin: 25px 0;
 	float: left;
 }
-.regular_menue{
+.regular_menue_item{
 	padding: 10px 0;
 }
-#menuebar .regular_menue:hover{
+#menuebar .regular_menue_item:hover{
 	text-decoration: underline;
 }
 .special_sponsor{
@@ -170,27 +170,41 @@ a{
 	  	border-radius: 3px;
 	}
 	
-	.regular_menue_area{
-		display: none;
-		margin: 50px 0 -15px;
+	#header .regular_menue_area{
 		float: left;
+		width: 100%;		
+		margin: 20px 0 -20px;
+		overflow: hidden;
+		max-height: 0;
+		-webkit-transition: max-height 0.8s;
+		-moz-transition: max-height 0.8s;
+		transition: max-height 0.8s;
 	}
-	#menuebar input[type=checkbox]:checked + .regular_menue_area{
-		display: block;
+
+	input[type=checkbox]:checked.menue_controller + #header .regular_menue_area{		
+		max-height: 500px;
 	}
-	.regular_menue{
+
+	.regular_menue_area_inner{
+		padding-left: 30px;
+	}
+	.regular_menue_item{
 		display: block;
-		padding-right: 15px;
+		padding-left: 20px;
+		margin-right: 0!important;
 		border-top: 1px solid #fff;
 	}
-	#menuebar .regular_menue:hover{
+	.regular_menue_item a{
+
+	}
+	#menuebar .regular_menue_item:hover{
 		text-decoration: none;
 	}
 	.special_sponsor{
 		display: none;
 	}
 	.resister{
-		margin-left: 220px;
+		text-align: center;
 		padding-top: 5px;
 	}
 	.resister a{		
@@ -200,6 +214,11 @@ a{
 	}
 
 	#main_content{
+		-webkit-transition: margin-top 0.8s;
+		-moz-transition: margin-top 0.8s;
+		transition: margin-top 0.8s;
+	}
+	input[type=checkbox]:checked.menue_controller ~ #main_content{
 		margin-top: 250px;
 	}
 
