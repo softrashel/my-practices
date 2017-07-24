@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Apollo Developers</title>
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png" sizes="16x16 32x32 64x64">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div id="wraper">
+		<div class="header">
+			<div class="menuebar">
+				<div class="menuebar_left">
+					<a href="#">
+						<img src="images/logo-apollo-space-left.svg" class="apollo_logo">
+						<img src="images/logo-apollo-subbrands-developers-space.svg">
+					</a>
+				</div>
+				<div class="menuebar_right">
+					<a href="#">React</a>
+					<a href="#">Angular</a>
+					<a href="#">iOS</a>
+					<a href="#">Android</a>
+					<a href="#">Vanilla JS</a>
+					<span class="menue_separator"></span>
+					<a href="#" class="active">Server</a>
+					<a href="#">Blog</a>
+					<a href="#">Community</a>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+		</div>
+		<div class="conteiner">
+			<div class="sidebar_left">
+				<h4>Apollo Tools Guide</h4>
+				<input type="text" class="search_input" placeholder="Search a guide to using t">
+				<h5 class="overview"><a href="#">Overview</a></h5>
+				<div class="overview_manue">
+					<a href="#" class="active">GraphQL server & tools</a>
+					<a href="#">GraphQL subscriptions</a>
+					<a href="#">GraphQL client tools</a>
+					<a href="#">Developer tools</a>
+				</div>
+				<div class="menue_head">GraphQL Tools</div>
+				<div class="overall_manue">
+					<a href="#">graphql-tools</a>
+					<a href="#">Generating a schema</a>
+					<a href="#">Resolvers</a>
+					<a href="#">Custom scalars</a>
+					<a href="#">Mocking</a>
+					<a href="#">Data fetching</a>
+					<a href="#">Error handling and logging</a>
+				</div>
+				<div class="menue_head">GraphQL Server</div>
+				<div class="overall_manue">
+					<a href="#">Installing</a>
+					<a href="#">Adding a GraphQL endpoint</a>
+					<a href="#">Sending requests</a>
+					<a href="#">GraphiQL</a>
+					<a href="#">Migrating to v0.4</a>
+					<a href="#">Migrating to v0.3</a>
+					<a href="#">Migrating to v0.2</a>
+				</div>
+				<div class="menue_head">Subscriptions</div>
+				<div class="overall_manue">
+					<a href="#">Installation</a>
+					<a href="#">Adding Subscriptions To Schema</a>
+					<a href="#">Setup</a>
+					<a href="#">Lifecycle Events</a>
+					<a href="#">Authentication Over WebSocket</a>
+					<a href="#">Express</a>
+					<a href="#">Using an external PubSub Engine (Redis/MQTT)</a>
+					<a href="#">Meteor</a>
+				</div>
+			</div>
+			<div class="main_content">
+				<div class="block">
+					<h1>Overview</h1>
+					<div class="github_link">
+						<a href="#"><i class="fa fa-github" aria-hidden="true"></i>Edit on GitHub</a>
+					</div>
+					<p>In addition to a set of fully-featured GraphQL clients, the Apollo community maintains a set of tools for building GraphQL servers, and some utilities that make it easier to work with GraphQL in general.</p>
+					<p>If you’re looking for a simple way to get a GraphQL.js server up and running, start with <a href="#">graphql-tools</a>.</p>
+				</div>
+				<div class="block">
+					<div class="block_head">
+						<a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+						<h2>GraphQL server & tools</h2>
+					</div>					
+					<p>These are libraries designed to make it easy to build a JavaScript GraphQL server using <a href="#">GraphQL.js</a>, Facebook’s reference implementation of a GraphQL type system and execution engine.</p>
+					<ul>
+						<li><a href="#">graphql-tools</a>, a package that enables you to build a production-ready GraphQL.js schema using the GraphQL schema language, rather than using the GraphQL.js type constructors directly. Schemas built with this package are compatible with any GraphQL servers, including our own <a href="#">apollo-server</a> and Facebook’s <a href="#">express-graphql</a>. This allows you to build on the <a href="#">getting started guide for GraphQL.js</a> with additional support for resolvers, unions, interfaces, custom scalars, modularizing your schema, and more.</li>
+						<li><a href="#">graphql-server</a>, a production-ready Node.js GraphQL server library that supports <b>Express</b>, <b>Connect</b>, <b>Hapi</b>, <b>Koa</b>, and other popular Node HTTP servers, with built-in features like persisted queries, batching, and more. Apollo Server works with any GraphQL client, like Apollo, Relay, Lokka, and more.</li>
+					</ul>
+				</div>
+				<div class="block">
+					<div class="block_head">
+						<a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+						<h2>GraphQL subscriptions</h2>
+					</div>					
+					<p>The Apollo community is excited about enabling people to add realtime functionality to their applications, and GraphQL subscriptions are the first step on that path. You can use the packages below to add subscription support to any Node.js GraphQL server.</p>
+					<ul>
+						<li><a href="#">graphql-subscriptions</a>, a transport-agnostic JavaScript utilities collection, including <span class="special_word">PubSub</span>, channels mapping and filters.</li>
+						<li><a href="#">subscriptions-transport-ws</a>, a WebSocket server and client for GraphQL that works with <span class="special_word">AsyncIterable</span> and can be easily used directly in a JavaScript app or wired up to a fully-featured GraphQL client like Apollo or Relay.</li>
+					</ul>
+					<p>You can read more about subscription server <a href="#">here</a>.</p>
+				</div>
+				<div class="block">
+					<div class="block_head">
+						<a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+						<h2>GraphQL client tools</h2>
+					</div>
+					<ul>
+						<li><a href="#">graphql-anywhere</a>, the core schema-less GraphQL execution engine of the Apollo JavaScript Client, which lets you build your own powerful GraphQL tools and cache implementations, and works anywhere you can run JavaScript code.</li>
+						<li><a href="#">graphql-tag</a>, a simple library for parsing and printing GraphQL queries, as well as putting together multiple fragments into one query. It helps power <a href="#">apollo-client</a> and works great with <a href="#">eslint-plugin-graphql</a>.</li>
+					</ul>
+				</div>
+				<div class="block">
+					<div class="block_head">
+						<a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+						<h2>Developer tools</h2>
+					</div>
+					<ul>
+						<li><a href="#">eslint-plugin-graphql</a>, an ESLint plugin that will check your GraphQL query strings for syntax errors and schema compliance, and works with any JavaScript GraphQL client including Apollo, Relay, Lokka, and more.</li>
+					</ul>
+				</div>
+				<div class="footer_box">
+					<a href="#"><span>NEXT</span>graphql-tools</a>
+				</div>
+				<div class="github_link_2">
+					<a href="#"><i class="fa fa-github" aria-hidden="true"></i>Edit on GitHub</a>
+				</div>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+	</div>
+</body>
+</html>

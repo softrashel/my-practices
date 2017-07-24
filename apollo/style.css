@@ -1,0 +1,237 @@
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+body a{
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: auto;
+	left: 0;
+	z-index: 3;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+
+.menuebar{
+	width: 1300px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.menuebar a{	
+	padding: 20px 0;
+	margin: 0 15px;	
+}
+.apollo_logo{
+	width: 120px;
+	margin: -15px -5px;
+	float: left;
+}
+
+.menuebar .active{
+	color: #22A699;
+	border-bottom: 2px solid #22A699;
+}
+
+.menuebar_left{
+	float: left;
+}
+
+.menue_separator{
+	border-right: 1px solid #ddd;
+}
+
+.menuebar_right{
+	float: right;
+}
+.menuebar_right a:hover{
+	color: #22A699;
+	border-bottom: 2px solid #22A699;
+}
+
+
+.conteiner{
+	width: 100%;
+}
+
+.sidebar_left{
+	position: fixed;
+	top: 60px;
+	right: auto;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	overflow: scroll;
+	width: 200px;
+	height: 100%;
+	padding: 20px 30px;
+	background-color: #f8f8f8;
+	float: left;
+}
+.sidebar_left h4{
+	margin: 0;
+}
+.sidebar_left h5{
+	margin-bottom: 10px;
+}
+.sidebar_left .active{
+	color: #22A699;
+}
+
+.search_input{
+	padding: 5px;
+	margin: 15px 0;
+	border: none;
+	border-radius: 20px;
+}
+
+.overview{
+	margin: 0;
+}
+.overview a{
+	display: block;
+	font-size: 17px;
+	color: #22A699;
+}
+.overview_manue{
+	color: #444;
+	margin-left: 15px;
+	line-height: 25px;
+}
+
+.menue_head{
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin: 30px 0 5px 0;
+}
+.overall_manue{
+	line-height: 25px;
+}
+.overall_manue a{
+	display: block;
+	color: #444;
+}
+
+
+.main_content{
+	width: 880px;
+	padding: 60px 100px 0;
+	float: right;
+}
+.main_content h1{
+	font-size: 40px;
+	letter-spacing: 1px;
+	color: #333;
+	margin-top: 50px;
+}
+.main_content h2{
+	font-size: 28px;
+	color: #333;
+	margin: 0;
+}
+.main_content p{
+	font-size: 18px;
+	color: #555;
+	line-height: 25px;
+	margin: 15px 0;
+}
+.block{
+	margin-bottom: 70px;
+}
+.block a{
+	font-size: 18px;
+	color: #22A699;
+}
+.block b{
+	color: #000;
+}
+.block li{
+	font-size: 18px;
+	color: #555;
+	line-height: 25px;
+	margin-top: 20px;
+}
+.block i{
+	margin-right: 5px;
+}
+
+.block_head{
+	margin-left: -33px;
+}
+.block_head i{
+	float: left;
+	font-size: 17px;
+	color: #ccc;
+	margin: 10px 15px 0 0;
+}
+.block_head i:hover{
+	color: #62c8be;
+}
+
+.github_link{
+	margin-bottom: 40px;
+}
+.github_link a{
+	color: #000;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 5px 20px;	
+	background-color: #ddd;
+	border-radius: 20px;
+}
+.github_link a:hover{
+	background-color: #ccc;
+}
+
+.footer_box{
+	text-align: right;
+	padding: 30px 0;
+	margin-bottom: 30px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.footer_box a{
+	font-size: 18px;
+	font-weight: 600;
+	color: #22A699;
+}
+.footer_box span{
+	font-size: 11px;
+	font-weight: 500;
+	color: #ddd;
+	letter-spacing: 4px;
+}
+
+.github_link_2{
+	height: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.github_link_2 a{
+	color: #666;
+	font-size: 16px;
+	font-weight: 600;
+}
+.github_link_2 a:hover{
+	border-bottom: 1px solid #666;
+}
+.github_link_2 i{
+	margin-right: 5px;
+}
+
+.special_word{
+	font-size: 14px;
+	color: green;
+	background-color: #eee;
+}
