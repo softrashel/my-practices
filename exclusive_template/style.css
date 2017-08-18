@@ -1,0 +1,138 @@
+/*
+Theme Name: My Theme
+Theme URI: http://mytheme.com/themes/mytheme
+Author: softRashel
+Author URI: http://mytheme.com/
+Description: It is my test Theme.
+Version: 1.0.0
+License: 
+License URI: 
+Tags: black, brown, orange, white, yellow, light, one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post
+Text Domain: mytheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html, body, div, span,object, iframe,
+h1, h2, h3, h4, h5, h6, p,ul, li,tr, th,
+td,footer, header,menu,output,section,
+summary,time, mark,
+audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	width: 100%;
+	background-color: #43b399;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+img{
+    max-width: 100%;
+}
+
+.scrollToTop {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 15px;
+    bottom: 8px;
+    z-index: 9;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #07a681;
+    border: 1px solid;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    /*display: none;*/
+}
+.scrollToTop:hover,
+.scrollToTop:focus {
+    outline: none;
+    color: #07a681;
+    background-color: #fff;
+    border-color: 1px solid #07a681;
+}
+
+#social_icon{
+    position: fixed;
+    left: 5px;
+    bottom: 31px;
+    z-index: 9;
+    text-align: center;
+}
+#social_icon a{
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+    margin-bottom: 2px;
+    color: #ddd;
+    background-color: #0584ae;
+    border-radius: 50px;
+    display: block;
+}
+#social_icon a:hover{
+    color: #fff;
+}
+
+.edit_button a{
+    color: #ffffff;
+    font-size: 17px;
+    background-color: orange;
+    border-radius: 20px; 
+    padding: 5px 10px;
+    margin-top: -20px;
+    float: right;
+}
+.edit_button a:hover{
+    background-color: gold;
+}
+
+.next_prev_post{
+    margin-top: 50px;
+}
+.next_prev_post span{
+    padding: 5px 10px;    
+    background-color: #d56979;
+    border-radius: 20px;
+}
+.next_prev_post span:hover{
+    background-color: #cc5767;
+}
+.next_prev_post span a{
+    color: #fff;
+}
+
+.paginate_links{
+    width: 50%;
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.paginate_links a,
+.paginate_links span,
+.paginate_links .dots{
+    padding: 2px 5px;
+    background-color: pink;
+    border-radius: 10px;
+}
+.paginate_links a:hover,
+.paginate_links span{
+    color: #fff;
+    background-color: orange;
+}

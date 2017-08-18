@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>softRashel &raquo My personal blog</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo_30_blue.png" sizes="30x30">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/slide.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/custom.js"></script>
+</head>
+
+<body>
+
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+
+    <div id="social_icon">
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+    </div>
+
+    <div id="slider_area">
+        <div id="site_name"><a href="http://localhost/sojib/testwp">softRashel</a></div>
+        <div id="tag_line">My personal blog</div>
+        <div><img class="mySlides slider" src="css/images/slider_01.jpg"></div>
+        <div><img class="mySlides slider" src="css/images/slider_02.jpg"></div>
+        <div><img class="mySlides slider" src="css/images/slider_03.jpg"></div>
+
+        <button class="slider_button sl_btn_left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="slider_button sl_btn_right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+    <div id="wraper">
+
+        <div id="header">
+            <div id="menubar">
+
+                <div id="menubar_left">
+                    <ul id="menu-main-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sample Page</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Front Page</a></li>
+                        <li><a href="#">About The Tests</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Page Markup</a></li>
+                                <li><a href="#">Page Image Alignment</a></li>
+                                <li><a href="#">Page with comments</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="menubar_right">
+                    <a href="#"><img src="images/softrashel.png"></a>
+                </div>
+
+            </div><!-- /#menubar -->
+        </div><!-- /#header -->
+
+        <div id="container">
+
+            <div class="content">
+
+                <div id="post_area">
+
+                    <div class="post_body">
+                        <div class="featured_image">
+                            <a href="single.html"><img src="images/default.jpg">
+                            </a>
+                        </div>
+                        <div class="post_details">
+                            <h2 class="post_title"><a href="single.html">How to Point WordPress Default Media Upload Directory to New Location</a></h2>
+                            <div>Category : <a href="#" rel="category tag">Uncategorized</a>
+                            </div>
+                            <div class="post_info">
+                                <i class="fa fa-user-o"></i> <a href="#"><i class="fa fa-comment-o"></i>0</a>
+                                <i class="fa fa-calendar"></i>Friday, August 18, 2017 08:36 am </div>
+                            <div class="post_content">
+                                <p>
+                                    <p>Change your WordPress default media upload directory to new location. Store your media files in new location instead of wp-content/uploads . WordPress Media Library will access media files form your new directory. Here I am showing your how to do that. </p>
+                                    <p>The post <a rel="nofollow" href="#">How to Point WordPress Default Media Upload Directory to New Location</a> appeared first on <a rel="nofollow" href="http://onetarek.com">oneTarek</a>.</p>
+                                </p>
+                            </div>
+                            <div class="edit_button"><a href="#">edit post</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post_body">
+                        <div class="featured_image">
+                            <a href="single.html"><img src="images/default.jpg">
+                            </a>
+                        </div>
+                        <div class="post_details">
+                            <h2 class="post_title"><a href="single.html">How to Point WordPress Default Media Upload Directory to New Location</a></h2>
+                            <div>Category : <a href="#" rel="category tag">Uncategorized</a>
+                            </div>
+                            <div class="post_info">
+                                <i class="fa fa-user-o"></i> <a href="#"><i class="fa fa-comment-o"></i>0</a>
+                                <i class="fa fa-calendar"></i>Friday, August 18, 2017 08:36 am </div>
+                            <div class="post_content">
+                                <p>
+                                    <p>Change your WordPress default media upload directory to new location. Store your media files in new location instead of wp-content/uploads . WordPress Media Library will access media files form your new directory. Here I am showing your how to do that. </p>
+                                    <p>The post <a rel="nofollow" href="#">How to Point WordPress Default Media Upload Directory to New Location</a> appeared first on <a rel="nofollow" href="http://onetarek.com">oneTarek</a>.</p>
+                                </p>
+                            </div>
+                            <div class="edit_button"><a href="#">edit post</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paginate_links">
+                        <span class='page-numbers current'>1</span>
+                        <a class='page-numbers' href='#'>2</a>
+                        <a class='page-numbers' href='#'>3</a>
+                        <a class="next page-numbers" href='#'>Next &raquo;</a>
+                    </div>
+                    <div style="clear:both"></div>
+
+                </div><!-- /#post_area -->
+
+                <div style="clear:both"></div>
+
+            </div><!-- /.content -->
+
+            <div class="content">
+
+                <div class="info_block" id="my_items">
+                    <h2>My Items</h2>
+                    <a href="#"><img src="images/sony-bg-04.jpg"></a>
+                    <a href="#"><img src="images/sony-bg-02.jpg"></a>
+                    <a href="#"><img src="images/sony-bg-01.jpg"></a>
+                    <a href="#"><img src="images/sony-bg-01.jpg"></a>
+                    <a href="#"><img src="images/sony-bg-03.jpg"></a>
+                    <a href="#"><img src="images/sony-bg-04.jpg"></a>
+                </div>
+
+                <div class="info_block" id="author_info">
+                    <h2>My Profile</h2>
+                    <div><a href="#"><img src="images/softrashel.png"></a></div>
+                    <h3><a href="#">Soft Rashel</a></h3>
+                    <p>Meh synth Schlitz, tempor duis gin coffee ea next level ethnic fingerstache fanpack nostrud. Photo booth anim 8-bit hellpber 3 wolf moon beard Helvetica.</p>
+                </div>
+
+                <div class="info_block" id="contact_info">
+                    <h2>Stay updated</h2>
+                    <p>Subscribe to anewsletter and stay updated with our special offers and the latest free themes released.</p>
+                    <form action="#" method="post">
+                        <input type="text" name="email" value="" placeholder="Your e-mail">
+                        <input type="submit" name="submit" value="SUBSCRIBE NOW">
+                    </form>
+                </div>
+
+                <div style="clear:both"></div>
+
+            </div><!-- /.content -->
+
+        </div><!-- /#container -->
+
+        <div id="footer_area">
+
+            <div id="footer">
+
+                <ul id="footer_content">
+                    <li><a href="#"><i class="fa fa-caret-right"></i>20% Off Gorilla Themes</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>20% Off Array Themes</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>25% Off TemplateMonster</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>20% Off Photo Subscriptions</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>20% Off Photo Credits</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>20% Off WPEngine WordPress Hosting</a></li>
+                </ul>
+
+                <ul id="footer_content">
+                    <li><a href="#"><i class="fa fa-caret-right"></i>Total – Best WordPress Theme of 2016</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>Chic Blog &amp; WooCommerce Theme</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>Spartan News Magazine WP Theme</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>Twenties Responsive Blog WordPress Theme</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>Fabulous Masonry WordPress Theme</a></li>
+                </ul>
+
+                <ul id="footer_content">
+                    <li><a href="#"><i class="fa fa-caret-right"></i>Total – Best WordPress Theme of 2016</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>Chic Blog &amp; WooCommerce Theme</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>Spartan News Magazine WP Theme</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>Twenties Responsive Blog WordPress Theme</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>Fabulous Masonry WordPress Theme</a></li>
+                </ul>
+
+                <div style="clear:both"></div>
+
+            </div>
+
+            <div id="footer_bottom">
+                <div id="file_icon"><img src="images/sony-bg-03.jpg">
+                </div>
+                <div id="theme_info">
+                    <div id="copyright_info">Copyright © 2017 <a href="#">softTheme</a>
+                    </div>
+                    <div id="designer_info">Designed by softRashel</div>
+                    <div style="clear:both"></div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+
+        </div>
+
+    </div><!-- /#wraper -->
+
+</body>
+</html>

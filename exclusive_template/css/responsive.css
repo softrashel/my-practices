@@ -1,0 +1,53 @@
+@media only screen and (max-width: 782px){
+	#wpadminbar{
+		position: fixed !important;
+	}
+	img{
+		max-height: 300px;
+	}
+	#social_icon{
+		display: none;
+	}
+	#slider_area{
+		display: none;
+	}
+	#menubar_left{
+		display: none;
+	}
+	#container{
+		margin-top: 50px;
+	}
+	.content{
+		margin-top: 2px;
+	}
+	#post_area{
+		width: 100%;
+	}
+	.post_body{
+		width: 100%;
+		margin-right: 0;
+	}
+	.info_block{
+		width: 100%;	
+		margin-right: 0;
+		display: block;
+	}
+	#footer_area{
+		margin-top: 0px;
+	}
+	#footer_content{
+		width: 96%;
+		margin: 0 2%;
+	}
+	#file_icon{
+		width: 20%;
+		padding-left: 0;
+	}
+	#theme_info{
+		width: 70%;
+		padding: 15px 5%;
+	}
+	#designer_info{
+		display: none;
+	}
+}
