@@ -58,8 +58,11 @@
 	float: right;
 }
 #menubar_right a{
-	height: 20px;
-	width: 20px;
+	height: 40px;
+	width: 40px;
+	padding: 0;
+	margin-top: 3px;
+	border: 2px solid #fff;
 	border-radius: 25px;
 	display: inline-block;
 }
@@ -94,18 +97,54 @@
 	width: 100%;
 	margin-bottom: 50px;
 }
-.featured_image img{
+
+.featured_image_box{
 	width: 100%;
 	height: 400px;
-	border-radius: 5px;
+	overflow: hidden;
+	border-radius: 8px;
+	border-bottom: 3px solid #ff6644;
 }
+.overlay{
+	width: 583px;
+	height: 400px;
+	position: absolute;
+	z-index: 1;
+	border-radius: 5px;
+	background-color: transparent;
+	-moz-transition: all 1.5s;
+  	-webkit-transition: all 1.5s;
+  	transition: all 1.5s;
+	display: none;
+}
+.featured_image_box:hover .overlay{
+	display: block;
+	opacity: 0.6;
+	background-color: #ea5b3b;
+	background-image: url(images/book-icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.featured_image{
+	width: 100%;
+	height: 100%;
+	-moz-transition: all 1.5s;
+  	-webkit-transition: all 1.5s;
+  	transition: all 1.5s;
+}
+.featured_image_box:hover .featured_image{
+	-moz-transform: scale(1.2);
+  	-webkit-transform: scale(1.2);
+  	transform: scale(1.2);
+}
+
 .post_title{
 	font-size: 28px;
 	font-weight: bold;
 	margin: 15px 0;
 }
 .post_title a{
-	color: #444;
+	color: #ea5b3b;
 }
 .post_title a:hover{
 	color: #cc5767;
@@ -119,6 +158,7 @@
 	margin: 0 10px 10px -10px;
 }
 .post_info i{
+	color: #cc5767;
 	margin: 0 3px 0 10px;
 }
 .post_body span{
@@ -173,13 +213,13 @@
 	background-color: #0584ae;
 }
 
-.info_block{
-	width: 30%;	
-	margin-right: 3%;
-	margin-bottom: 50px;
-	float: left;
+#authors_info_area{
+	width: 100%;
+	padding-bottom: 50px;
 }
-.info_block h2{
+#authors_info_area h3,
+#followers_info_area h3{
+	color: #cc5767;
 	font-size: 21px;
 	font-weight: 600;
 	text-align: center;
@@ -187,10 +227,13 @@
 	margin-bottom: 15px;
 	border-bottom: 1px solid #bbb;
 }
-.info_block a{
-	color: #cc5767;
+.info_block{
+	width: 30%;	
+	margin-right: 3%;
+	float: left;
 }
-.info_block p{
+.info_block p,
+.single_follower p{
 	font-size: 17px;
 	line-height: 24px;
 }
@@ -205,15 +248,55 @@
 #author_info{
 	text-align: center;
 }
-#author_info h3{
+#author_info h4,
+.single_follower h4{
 	font-size: 20px;
 	font-weight: 600;
+	margin-top: 20px;
 	margin-bottom: 10px;
+}
+#author_info a:hover{
+	color: #cc5767;
 }
 #author_info img{
 	width: 100px;
-	border: 2px solid #bbb;
-	border-radius: 100px;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+}
+
+#followers_info_area{
+	width: 80%;
+	text-align: center;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+.single_follower{
+	width: 17%;
+	padding: 2%;
+	margin: 1%;
+	margin-bottom: 20px;
+	background-color: #5f5c5b;
+	border-radius: 5px;
+	display: inline-block;
+}
+.single_follower:hover{
+	background-color: #016837;
+}
+.single_follower img{
+	width: 150px;
+	height: 150px;
+}
+.single_follower a,
+.single_follower i,
+.single_follower p{
+	color: #fff;
+}
+.single_follower i{
+	font-size: 25px;
+	margin-top: 20px;
+}
+.single_follower i:hover{
+	color: #0584ae;
 }
 
 #contact_info input[type=text]{
@@ -256,14 +339,23 @@
 	padding-right: 10px;
 }
 #footer a{
-	font-size: 16px;
 	color: #ffffff;
 	line-height: 25px;
 }
 
 #footer_content{
-	width: 33%;
+	width: 30%;
+	color: #fff;
+	font-size: 16px;
+	margin-right: 3%;
 	float: left;
+}
+#footer_content h2{
+	font-size: 20px;
+	font-weight: 600;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ddd;
 }
 
 #footer_bottom{

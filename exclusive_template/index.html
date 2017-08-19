@@ -19,9 +19,9 @@
 
     <div id="social_icon">
         <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#" style="background-color:#245a9b"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" style="background-color:#db493c"><i class="fa fa-google-plus"></i></a></li>
         </ul>
     </div>
 
@@ -95,13 +95,12 @@
                 <div id="post_area">
 
                     <div class="post_body">
-                        <div class="featured_image">
-                            <a href="single.html"><img src="images/default.jpg">
-                            </a>
+                        <div class="featured_image_box">
+                            <a href="single.html"><div class="overlay"></div><img class="featured_image" src="images/default.jpg"></a>
                         </div>
                         <div class="post_details">
                             <h2 class="post_title"><a href="single.html">How to Point WordPress Default Media Upload Directory to New Location</a></h2>
-                            <div>Category : <a href="#" rel="category tag">Uncategorized</a>
+                            <div style="color:#cc5767">Category : <a href="#" rel="category tag">Uncategorized</a>
                             </div>
                             <div class="post_info">
                                 <i class="fa fa-user-o"></i> <a href="#"><i class="fa fa-comment-o"></i>0</a>
@@ -118,13 +117,12 @@
                     </div>
 
                     <div class="post_body">
-                        <div class="featured_image">
-                            <a href="single.html"><img src="images/default.jpg">
-                            </a>
+                        <div class="featured_image_box">
+                            <a href="single.html"><div class="overlay"></div><img class="featured_image" src="images/default.jpg"></a>
                         </div>
                         <div class="post_details">
                             <h2 class="post_title"><a href="single.html">How to Point WordPress Default Media Upload Directory to New Location</a></h2>
-                            <div>Category : <a href="#" rel="category tag">Uncategorized</a>
+                            <div style="color:#cc5767">Category : <a href="#" rel="category tag">Uncategorized</a>
                             </div>
                             <div class="post_info">
                                 <i class="fa fa-user-o"></i> <a href="#"><i class="fa fa-comment-o"></i>0</a>
@@ -156,33 +154,74 @@
 
             <div class="content">
 
-                <div class="info_block" id="my_items">
-                    <h2>My Items</h2>
-                    <a href="#"><img src="images/sony-bg-04.jpg"></a>
-                    <a href="#"><img src="images/sony-bg-02.jpg"></a>
-                    <a href="#"><img src="images/sony-bg-01.jpg"></a>
-                    <a href="#"><img src="images/sony-bg-01.jpg"></a>
-                    <a href="#"><img src="images/sony-bg-03.jpg"></a>
-                    <a href="#"><img src="images/sony-bg-04.jpg"></a>
-                </div>
+                <div id="authors_info_area">
 
-                <div class="info_block" id="author_info">
-                    <h2>My Profile</h2>
-                    <div><a href="#"><img src="images/softrashel.png"></a></div>
-                    <h3><a href="#">Soft Rashel</a></h3>
-                    <p>Meh synth Schlitz, tempor duis gin coffee ea next level ethnic fingerstache fanpack nostrud. Photo booth anim 8-bit hellpber 3 wolf moon beard Helvetica.</p>
-                </div>
+                    <div class="info_block" id="my_items">
+                        <h3>My Items</h3>
+                        <a href="#"><img src="images/sony-bg-04.jpg"></a>
+                        <a href="#"><img src="images/sony-bg-02.jpg"></a>
+                        <a href="#"><img src="images/sony-bg-01.jpg"></a>
+                        <a href="#"><img src="images/sony-bg-01.jpg"></a>
+                        <a href="#"><img src="images/sony-bg-03.jpg"></a>
+                        <a href="#"><img src="images/sony-bg-04.jpg"></a>
+                    </div>
 
-                <div class="info_block" id="contact_info">
-                    <h2>Stay updated</h2>
-                    <p>Subscribe to anewsletter and stay updated with our special offers and the latest free themes released.</p>
-                    <form action="#" method="post">
-                        <input type="text" name="email" value="" placeholder="Your e-mail">
-                        <input type="submit" name="submit" value="SUBSCRIBE NOW">
-                    </form>
-                </div>
+                    <div class="info_block" id="author_info">
+                        <h3>My Profile</h3>
+                        <div><a href="#"><img src="images/softrashel.png"></a></div>
+                        <h4><a href="#">Soft Rashel</a></h4>
+                        <p>Meh synth Schlitz, tempor duis gin coffee ea next level ethnic fingerstache fanpack nostrud. Photo booth anim 8-bit hellpber 3 wolf moon beard Helvetica.</p>
+                    </div>
 
-                <div style="clear:both"></div>
+                    <div class="info_block" id="contact_info">
+                        <h3>Stay updated</h3>
+                        <p>Subscribe to anewsletter and stay updated with our special offers and the latest free themes released.</p>
+                        <form action="#" method="post">
+                            <input type="text" name="email" value="" placeholder="Your e-mail">
+                            <input type="submit" name="submit" value="SUBSCRIBE NOW">
+                        </form>
+                    </div>
+
+                    <div style="clear:both"></div>
+
+                </div><!-- /.authors_info_area -->
+
+                <div id="followers_info_area">
+                    
+                    <h3>Followers</h3>
+                    <div id="followers_info">
+                        <div class="single_follower">
+                            <a href="#"><img src="images/speakers/avatar-5.png"></a>
+                            <h4><a href="#">Valentin Bartenev</a></h4>
+                            <p>Core Developer</p>
+                            <p>NGINX, Inc.</p>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                        <div class="single_follower">
+                            <a href="#"><img src="images/speakers/avatar-2.png"></a>
+                            <h4><a href="#">Valentin Bartenev</a></h4>
+                            <p>Core Developer</p>
+                            <p>NGINX, Inc.</p>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                        <div class="single_follower">
+                            <a href="#"><img src="images/speakers/avatar-6.png"></a>
+                            <h4><a href="#">Valentin Bartenev</a></h4>
+                            <p>Core Developer</p>
+                            <p>NGINX, Inc.</p>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                        <div class="single_follower">
+                            <a href="#"><img src="images/speakers/avatar-4.png"></a>
+                            <h4><a href="#">Valentin Bartenev</a></h4>
+                            <p>Core Developer</p>
+                            <p>NGINX, Inc.</p>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+
+                </div><!-- /.followers_info_area -->
 
             </div><!-- /.content -->
 
@@ -193,6 +232,7 @@
             <div id="footer">
 
                 <ul id="footer_content">
+                    <h2>Discount</h2>
                     <li><a href="#"><i class="fa fa-caret-right"></i>20% Off Gorilla Themes</a></li>
                     <li><a href="#"><i class="fa fa-caret-right"></i>20% Off Array Themes</a></li>
                     <li><a href="#"><i class="fa fa-caret-right"></i>25% Off TemplateMonster</a></li>
@@ -202,6 +242,7 @@
                 </ul>
 
                 <ul id="footer_content">
+                    <h2>My Works</h2>
                     <li><a href="#"><i class="fa fa-caret-right"></i>Total – Best WordPress Theme of 2016</a></li>
                     <li><a href="#"><i class="fa fa-caret-right"></i>Chic Blog &amp; WooCommerce Theme</a></li>
                     <li><a href="#"><i class="fa fa-caret-right"></i>Spartan News Magazine WP Theme</a></li>
@@ -210,11 +251,8 @@
                 </ul>
 
                 <ul id="footer_content">
-                    <li><a href="#"><i class="fa fa-caret-right"></i>Total – Best WordPress Theme of 2016</a></li>
-                    <li><a href="#"><i class="fa fa-caret-right"></i>Chic Blog &amp; WooCommerce Theme</a></li>
-                    <li><a href="#"><i class="fa fa-caret-right"></i>Spartan News Magazine WP Theme</a></li>
-                    <li><a href="#"><i class="fa fa-caret-right"></i>Twenties Responsive Blog WordPress Theme</a></li>
-                    <li><a href="#"><i class="fa fa-caret-right"></i>Fabulous Masonry WordPress Theme</a></li>
+                    <h2>About</h2>
+                    <p>Spartan News Magazine get here. Photo booth anim 8-bit hellpber 3 wolf moon beard Helvetica.</p>
                 </ul>
 
                 <div style="clear:both"></div>
