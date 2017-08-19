@@ -1,33 +1,16 @@
-jQuery(document).ready(function() {
-    //Check to see if the window is top if not then display button
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 300) {
-            $('.scrollToTop').fadeIn();
-        } else {
-            $('.scrollToTop').fadeOut();
-        }
-    });
-    //Click event to scroll to top
-    $('.scrollToTop').click(function() {
-        $('html, body').animate({
-            scrollTop: 0
-        }, 800);
-        return false;
-    });
-    $('.tootlip').tooltip();
-    $("ul#ticker01").liScroll();
-});
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
-wow = new WOW({
-    animateClass: 'animated',
-    offset: 100
-});
-wow.init();
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
 
-jQuery(window).load(function() { // makes sure the whole site is loaded
-    $('#status').fadeOut(); // will first fade out the loading animation
-    $('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website.
-    $('body').delay(100).css({
-        'overflow': 'visible'
-    });
-})
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}

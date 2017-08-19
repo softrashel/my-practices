@@ -60,7 +60,7 @@ img{
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-    /*display: none;*/
+    display: none;
 }
 .scrollToTop:hover,
 .scrollToTop:focus {
