@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>softRashel &raquo My personal blog</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo_30_blue.png" sizes="30x30">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/slide.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/custom.js"></script>    
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="myBtn" class="scrollToTop"><i class="fa fa-angle-up"></i></button>
+
+    <div id="social_icon">
+        <ul>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" style="background-color:#245a9b"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" style="background-color:#db493c"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+    </div>
+
+    <div id="slider_area">
+        <div id="site_name"><a href="http://localhost/sojib/testwp">softRashel</a></div>
+        <div id="tag_line">My personal blog</div>
+        <div><img class="mySlides slider" src="css/images/slider_01.jpg"></div>
+        <div><img class="mySlides slider" src="css/images/slider_02.jpg"></div>
+        <div><img class="mySlides slider" src="css/images/slider_03.jpg"></div>
+
+        <button class="slider_button sl_btn_left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="slider_button sl_btn_right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+    <div id="wraper">
+
+        <div id="header">
+            <div id="menubar">
+
+                <div id="menubar_left">
+                    <ul id="menu-main-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sample Page</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Front Page</a></li>
+                        <li><a href="#">About The Tests</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Page Markup</a></li>
+                                <li><a href="#">Page Image Alignment</a></li>
+                                <li><a href="#">Page with comments</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="menubar_right">
+                    <a href="#"><img src="images/softrashel.png"></a>
+                </div>
+
+            </div><!-- /#menubar -->
+        </div><!-- /#header -->
+
+        <div id="container">
