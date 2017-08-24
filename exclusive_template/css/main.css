@@ -41,33 +41,38 @@
 }
 #menubar .current-menu-item,
 #menubar .current-menu-ancestor{
-	padding: 15px;
+	padding: 15px 0;
 	background-color: #ef8496;
+}
+#menubar .current-menu-item a,
+#menubar .current-menu-ancestor a{
+	padding: 15px 30px;
 }
 #menubar a{
 	color: #fff;
-	padding: 15px;
+	padding: 15px 30px;
 }
 #menubar li{
 	display: inline-block;
 }
 #menubar_left li{
 	float: left;
-	padding: 15px;
+	padding: 15px 0;
 }
 #menubar_left li:hover{
 	background-color: #ef8496;
 }
 #menubar_left li ul{
-	width: 200px;
+	width: 250px;
 	position: absolute;
 	margin-top: 15px;
-	margin-left: -15px;
+	border-top: 1px solid pink;
 	display: none;
 }
 #menubar_left li ul li{
-	width: 200px;
+	width: 250px;
 	background-color: #dc6c7c;
+	border-bottom: 1px solid pink;
 }
 #menubar_left li ul li:hover{
 	background-color: #ef8496;
