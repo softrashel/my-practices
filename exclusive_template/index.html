@@ -15,55 +15,63 @@
 
 <body>
 
-    <button onclick="topFunction()" id="myBtn" class="scrollToTop"><i class="fa fa-angle-up"></i></button>
-
-    <div id="social_icon">
-        <ul>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#" style="background-color:#245a9b"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#" style="background-color:#db493c"><i class="fa fa-google-plus"></i></a></li>
-        </ul>
-    </div>
-
-    <div id="slider_area">
-        <div id="site_name"><a href="http://localhost/sojib/testwp">softRashel</a></div>
-        <div id="tag_line">My personal blog</div>
-        <div><img class="mySlides slider" src="css/images/slider_01.jpg"></div>
-        <div><img class="mySlides slider" src="css/images/slider_02.jpg"></div>
-        <div><img class="mySlides slider" src="css/images/slider_03.jpg"></div>
-
-        <button class="slider_button sl_btn_left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="slider_button sl_btn_right" onclick="plusDivs(1)">&#10095;</button>
-    </div>
-
-    <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
-        }
-
-        function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            if (n > x.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = x.length
-            }
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            x[slideIndex - 1].style.display = "block";
-        }
-    </script>
-
     <div id="wraper">
 
+        <button onclick="topFunction()" id="myBtn" class="scrollToTop"><i class="fa fa-angle-up"></i></button>
+
+        <div id="social_icon">
+            <ul>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" style="background-color:#245a9b"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" style="background-color:#db493c"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+
+        <input type="checkbox" id="slide" class="menue_controller" name="check" value="" />
+
         <div id="header">
+
+            <div id="slider_area">
+                <div id="site_name"><a href="http://localhost/sojib/testwp">softRashel</a></div>
+                <div id="tag_line"><span>My personal blog</span></div>
+                <div><img class="mySlides slider" src="css/images/slider_01.jpg"></div>
+                <div><img class="mySlides slider" src="css/images/slider_02.jpg"></div>
+                <div><img class="mySlides slider" src="css/images/slider_03.jpg"></div>
+
+                <button class="slider_button sl_btn_left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="slider_button sl_btn_right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {
+                        slideIndex = 1
+                    }
+                    if (n < 1) {
+                        slideIndex = x.length
+                    }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+            </script>
+
             <div id="menubar">
+
+                <div id="menue_parent">
+                    <label for="slide"></label>
+                    <i class="fa fa-bars"></i>
+                </div>
 
                 <div id="menubar_left">
                     <ul id="menu-main-menu">
@@ -86,6 +94,7 @@
                 </div>
 
             </div><!-- /#menubar -->
+
         </div><!-- /#header -->
 
         <div id="container">

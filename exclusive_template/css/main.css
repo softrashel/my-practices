@@ -6,6 +6,27 @@
 	width: 100%;
 }
 
+#site_name{ 
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px #ffffff;
+    margin-top: 100px;
+}
+#site_name a{
+    color: #ef8496;
+}
+#tag_line{
+    color: gold;
+    font-size: 20px;
+    text-align: center;
+}
+#tag_line span{
+    padding: 5px 40px;
+    background-color: #000;
+    opacity: 0.6;
+}
+
 #menubar{
 	width: 90%;
 	position: fixed;
@@ -15,15 +36,16 @@
 	font-weight: 600;
 	padding: 0 5%;
 	margin: 0 auto;
-	background-color: #ef8496;
+	background-color: #d56979;
+	opacity: 0.97;
 }
 #menubar .current-menu-item,
 #menubar .current-menu-ancestor{
 	padding: 15px;
-	background-color: #d56979;
+	background-color: #ef8496;
 }
 #menubar a{
-	color: #ffffff;
+	color: #fff;
 	padding: 15px;
 }
 #menubar li{
@@ -34,7 +56,7 @@
 	padding: 15px;
 }
 #menubar_left li:hover{
-	background-color: #d56979;
+	background-color: #ef8496;
 }
 #menubar_left li ul{
 	width: 200px;
@@ -45,10 +67,10 @@
 }
 #menubar_left li ul li{
 	width: 200px;
-	background-color: #ef8496;
+	background-color: #dc6c7c;
 }
 #menubar_left li ul li:hover{
-	background-color: #d56979;
+	background-color: #ef8496;
 }
 #menubar_left li:hover ul{
 	display: block;
@@ -71,6 +93,29 @@
 }
 #menubar_right img{
 	border-radius: 25px;
+}
+
+#menue_parent{
+    display: none;
+    padding: 5px 15px;
+    margin: 8px 0 5px 15px;
+    border-radius: 4px;
+    background-color: #43b399;
+    float: left;
+}
+#menue_parent:hover{
+    background-color: #07a681;
+}
+#menue_parent i{
+    color: #fff;
+    font-size: 16px;
+}
+input[type=checkbox].menue_controller{
+    display: none;
+}
+
+#container{
+	width: 100%;
 }
 
 .content{
@@ -331,8 +376,8 @@
 }
 
 #footer{
-	width: 1130px;
-	padding: 50px 0;
+	width: 84%;
+	padding: 30px 8%;
 	margin: 0 auto;
 }
 #footer li i{

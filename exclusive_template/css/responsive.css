@@ -11,12 +11,49 @@
 	#slider_area{
 		display: none;
 	}
-	#menubar_left{
+
+	#menubar_right{
 		display: none;
 	}
-	#container{
-		margin-top: 50px;
+	#menue_parent{
+	    display: block;
 	}
+	#menue_parent label{
+	    content: '';
+	    position: absolute;
+	    cursor: pointer;
+	    height: 30px;
+	    width: 44px;
+	    margin: -5px 0 0 -15px;
+	    border-radius: 3px;
+	    /*background-color: orange; (for testing label area)*/
+	}
+	#menubar_left{
+		display: none;
+		width: 200px;
+	}
+	input[type=checkbox]:checked.menue_controller ~ #header #menubar #menubar_left{
+		display: block;
+	}
+	#menubar_left li{
+	    display: block;
+	    width: 200px;
+	    border-top: 1px solid pink;
+	}
+	#menubar_left li ul{
+		margin-left: 15px;
+	}
+
+	#container{
+		margin-top: 44px;
+        -webkit-transition: margin-top 0.8s;
+        -moz-transition: margin-top 0.8s;
+        transition: margin-top 0.8s;
+	}
+    input[type=checkbox]:checked.menue_controller ~ #container{
+        margin-top: 300px;
+    }
+	
 	.content{
 		margin-top: 2px;
 	}

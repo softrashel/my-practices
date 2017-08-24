@@ -29,7 +29,7 @@ audio, video {
 
 body{
 	width: 100%;
-	background-color: #43b399;
+	background-color: #c8c1b1;
 }
 a{
     color: #ea5b3b;
@@ -42,7 +42,7 @@ img{
     max-width: 100%;
 }
 
-.scrollToTop {
+.scrollToTop{
     height: 50px;
     width: 50px;
     position: fixed;
@@ -62,8 +62,7 @@ img{
     transition: all 0.5s;
     display: none;
 }
-.scrollToTop:hover,
-.scrollToTop:focus {
+.scrollToTop:hover{
     outline: none;
     color: #07a681;
     background-color: #fff;

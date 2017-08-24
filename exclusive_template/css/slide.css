@@ -60,19 +60,3 @@
 .sl_btn_right {
     right: 0%;
 }
-
-#site_name{ 
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 2px 2px #ffffff;
-    margin-top: 100px;
-}
-#site_name a{
-    color: #ef8496;
-}
-#tag_line{
-    color: gold;
-    font-size: 20px;
-    text-align: center;
-}
