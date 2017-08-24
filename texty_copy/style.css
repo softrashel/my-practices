@@ -38,32 +38,27 @@ body{
 }
 #menubar_area{
 	height: 60px;
-	background-color: #ffffff;
-	border-bottom: 2px solid #e2e2e2;
+	background-color: #fff;
+	box-shadow: 0 3px 8px #888;
 }
 #menubar{
-	height: 60px;
-	width: 1170px;
-	margin: 0 auto;
+	width: 95%;
+	padding: 0 2.5%;
 }
-#top_menu{
-	margin: 0;
-	padding: 0;
-}
-#top_menu li{	
+#menubar li{
 	list-style-type: none;
 	display: inline-block;
 }
-#top_menu > li a{
+#menubar > li a{
 	color: #444;
 	font-size: 13px;
 	font-weight: bold;
-	padding: 20px 18px;
+	padding: 22px 18px;
 	text-decoration: none;
 	text-transform: uppercase;
 	display: block;
 }
-#top_menu a:hover{
+#menubar a:hover{
 	color: #ff6644;
 }
 .triangle:hover >ul >li > a::after{
@@ -74,9 +69,9 @@ body{
 	border-right: 7px solid transparent;
 	border-bottom: 7px solid #ff6644;	
 }
-#top_menu .triangle:hover >ul >li > a::after{
-	margin-top: 30px;
-	margin-left: -20px;
+#menubar .triangle:hover >ul >li > a::after{
+	margin-top: 32px;
+	margin-left: -25px;
 	position: absolute;
 }
 #menu{
@@ -85,24 +80,25 @@ body{
 	list-style-type: none;
 }
 #menu ul{
-	display: none;
+	width: 200px;
 	position: absolute;
 	list-style-type: none;
 	margin-left: 16px;
 	border-top: 4px solid #ff6644;
 	border-radius: 3px;
-	width: 200px;
+	opacity: 0.95;
+	display: none;
 }
 #menu ul li{
 	width: 200px;
 }
 #menu ul li a{
 	color: #444;
-	background-color: #ffffff;
+	background-color: #fff;
 	padding: 15px 20px;
-	border-left: 1px solid #bbbbbb;
-	border-right: 1px solid #dddddd;
-	border-bottom: 1px solid #dddddd;
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 	text-decoration: none;
 	text-transform: capitalize;
 }
@@ -110,9 +106,7 @@ body{
 	display: block;
 }
 #menu ul li:hover a{
-	color: #ffffff;
-	background-color: #ff6644;
-	border: none;
+	color: #ff6644;
 }
 /********************************************************** content_area **************************************************************/
 #container{

@@ -39,21 +39,26 @@
 	background-color: #d56979;
 	opacity: 0.97;
 }
-#menubar .current-menu-item,
-#menubar .current-menu-ancestor{
-	padding: 15px 0;
-	background-color: #ef8496;
-}
-#menubar .current-menu-item a,
-#menubar .current-menu-ancestor a{
-	padding: 15px 30px;
+#menubar li{
+	display: inline-block;
 }
 #menubar a{
 	color: #fff;
+	padding: 15px;
+}
+
+#menubar_left .current-menu-item,
+#menubar_left .current-menu-ancestor{
+	padding: 15px 0;
+	background-color: #ef8496;
+}
+#menubar_left .current-menu-item a,
+#menubar_left .current-menu-ancestor a{
 	padding: 15px 30px;
 }
-#menubar li{
-	display: inline-block;
+#menubar_left a{
+	color: #fff;
+	padding: 15px 30px;
 }
 #menubar_left li{
 	float: left;
