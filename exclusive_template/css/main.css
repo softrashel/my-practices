@@ -371,7 +371,7 @@ input[type=checkbox].menue_controller{
 
 #footer_area{
 	width: 100%;
-	margin: 530px auto 60px;
+	margin: 530px auto 65px;
 	background-color: #d56979;
 }
 
@@ -386,6 +386,9 @@ input[type=checkbox].menue_controller{
 #footer a{
 	color: #ffffff;
 	line-height: 25px;
+}
+#footer a:hover{
+	text-decoration: underline;
 }
 
 #footer_content{

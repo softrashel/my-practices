@@ -14,54 +14,55 @@
 
 <body>
 
-    <button onclick="topFunction()" id="myBtn" class="scrollToTop"><i class="fa fa-angle-up"></i></button>
-
-    <div id="social_icon">
-        <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-        </ul>
-    </div>
-
-    <div id="slider_area">
-        <div id="site_name"><a href="http://localhost/sojib/testwp">softRashel</a></div>
-        <div id="tag_line">My personal blog</div>
-        <div><img class="mySlides slider" src="css/images/slider_01.jpg"></div>
-        <div><img class="mySlides slider" src="css/images/slider_02.jpg"></div>
-        <div><img class="mySlides slider" src="css/images/slider_03.jpg"></div>
-
-        <button class="slider_button sl_btn_left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="slider_button sl_btn_right" onclick="plusDivs(1)">&#10095;</button>
-    </div>
-
-    <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
-        }
-
-        function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            if (n > x.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = x.length
-            }
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            x[slideIndex - 1].style.display = "block";
-        }
-    </script>
-
     <div id="wraper">
 
+        <button onclick="topFunction()" id="myBtn" class="scrollToTop"><i class="fa fa-angle-up"></i></button>
+
+        <div id="social_icon">
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+
         <div id="header">
+
+            <div id="slider_area">
+                <div id="site_name"><a href="http://localhost/sojib/testwp">softRashel</a></div>
+                <div id="tag_line">My personal blog</div>
+                <div><img class="mySlides slider" src="css/images/slider_01.jpg"></div>
+                <div><img class="mySlides slider" src="css/images/slider_02.jpg"></div>
+                <div><img class="mySlides slider" src="css/images/slider_03.jpg"></div>
+
+                <button class="slider_button sl_btn_left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="slider_button sl_btn_right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {
+                        slideIndex = 1
+                    }
+                    if (n < 1) {
+                        slideIndex = x.length
+                    }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+            </script>
+
             <div id="menubar">
 
                 <div id="menubar_left">
@@ -85,9 +86,18 @@
                 </div>
 
             </div><!-- /#menubar -->
+            
         </div><!-- /#header -->
 
         <div id="container">
+
+            <!--script src="https://www.w3schools.com/lib/w3.js"></script>
+
+            <div w3-include-html="header.html"></div>
+
+            <script>
+                w3.includeHTML();
+            </script-->
 
             <div class="content">
 
@@ -259,12 +269,12 @@
             </div>
 
             <div id="sponsor_area">
-                <img src="images/logo/wordpress.jpg">
-                <img src="images/logo/fiverr.jpg">
-                <img src="images/logo/freelancer.jpg">
-                <img src="images/logo/upwork.png">
-                <img src="images/logo/odesk.jpg">
-                <img src="images/logo/ajax.jpg">
+                <a href="#"><img src="images/logo/wordpress.jpg"></a>
+                <a href="#"><img src="images/logo/fiverr.jpg"></a>
+                <a href="#"><img src="images/logo/freelancer.jpg"></a>
+                <a href="#"><img src="images/logo/upwork.png"></a>
+                <a href="#"><img src="images/logo/odesk.jpg"></a>
+                <a href="#"><img src="images/logo/ajax.jpg"></a>
             </div>
 
             <div id="footer_bottom">
