@@ -1,0 +1,217 @@
+/*
+Theme Name: News Theme
+Theme URI: http://softrashel.com/themes/news
+Author: softRashel
+Author URI: http://softrashel.com/
+Description: It is my test Theme.
+Version: 1.0.0
+License: 
+License URI: 
+Tags: black, brown, orange, white, yellow, light, one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post
+Text Domain: news
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.page_heading{
+	color: #07a681;
+	font-weight: 400;
+	font-family: "Oswald", sans-serif;
+	margin: -30px 0 30px;
+}
+
+.show_post_title{
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px dashed #ddd;
+}
+
+.edit_link a{
+    margin-top: -10px;
+    padding: 5px 10px;
+    background-color: gold;
+    border-radius: 20px;
+    float: right;
+}
+
+.feed_update_button{	
+	padding: 5px;
+	background-color: orange;
+	border-radius: 3px;
+	float: right;
+}
+.feed_update_button a{
+	color: #fff;
+}
+.feed_update_button:hover{
+	background-color: #07a681;
+}
+
+.paginate_links{
+	font-size: 16px;
+	text-align: center;
+}
+.paginate_links a,
+.paginate_links span,
+.paginate_links .dots{
+	padding: 5px 10px;
+	background-color: pink;
+	border-radius: 20px;
+}
+.paginate_links a:hover,
+.paginate_links span{
+	color: #fff;
+	background-color: orange;
+}
+
+.next_prev_post{
+	display: inline;
+}
+.next_prev_post span{
+	margin-top: 50px;
+	padding: 2px 7px;
+	background-color: cyan;
+	border-radius: 20px;
+}
+
+
+.widget{
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 10px;
+	border-radius: 2px;
+}
+
+.screen-reader-text{
+	color: #07a681;
+	font-size: 17px;
+	font-weight: 500;
+	font-family: "Oswald", sans-serif;
+}
+.search-field{
+	width: 270px;
+	font-weight: normal;
+	padding: 5px;
+	border: 1px solid #07a681;
+	border-radius: 5px;
+}
+.search-submit, .submit{
+	color: #fff;
+	font-size: 14px;
+	padding: 5px 10px;
+	margin-top: 10px;
+	background-color: #058ebb;
+	border: 1px solid #666;
+	border-radius: 4px;
+	display: block;
+}
+.search-submit:hover, .submit:hover{
+	background-color: #0584ae;
+}
+
+#wp-calendar{
+	margin-left: 10px;
+	font-family: "Oswald", sans-serif;
+}
+#wp-calendar caption{
+	color: #07a681;
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 13px;
+}
+#wp-calendar th, td{
+	padding: 5px 13px;
+}
+
+.comments-area{
+	margin: 40px 0;
+	padding: 10px 20px;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+	background-color: #fff;
+	border-top: 1px solid #eaeaea;
+}
+.comment-body{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+}
+.comment-body img{
+	width: 55px;
+	border-radius: 50px;
+}
+.comment-list{
+	list-style: none;
+}
+.comment-list li{
+	list-style: none;
+}
+.no-comments{
+	padding-top: 1.6em;
+	color: #000 !important;
+	font-weight: 700;
+	font-family: "Noto Sans", sans-serif;
+	border-top: 1px solid #eaeaea;
+}
+.comment-list + .comment-respond{
+	margin: 40px 20px;
+}
+
+#pages a{
+	padding-left: 15px;
+}
+#pages > ul > li{
+	padding: 5px 0;
+	margin-bottom: 1px;
+	background-color: #ffc0cb;
+}
+#pages li ul{
+	margin: 8px 0 -5px;
+	background-color: #f9e3e6;
+}
+#pages li ul li{
+	padding: 5px 0;
+}
+
+.my_page_list_head,
+.pages{
+	width: 50%;
+}
+.pages a{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Oswald", sans-serif;
+	padding: 5px 15px;
+}
+.pages > ul > li{
+	padding: 5px 0;
+	margin-bottom: 1px;
+	background-color: #ffc0cb;
+}
+.pages li ul{
+	margin: 7px 0 -5px;
+	background-color: #f9e3e6;
+}
+.pages li ul li{
+	padding: 5px 0;
+}
+
+@media(min-width: 320px) and (max-width: 400px){
+	.search-field{
+		width: 230px;
+	}
+	#wp-calendar{
+		margin-left: -9px;
+	}
+	#wp-calendar caption{
+		margin-left: 9px;
+	}
+	#wp-calendar th, td{
+		padding: 5px 9px;
+	}
+
+	.my_page_list_head,
+	.pages{
+		width: 100%;
+	}
+}

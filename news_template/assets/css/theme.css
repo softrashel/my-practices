@@ -1,0 +1,89 @@
+.scrollToTop {
+    background-color: #07a681;
+    color: #fff
+}
+.scrollToTop:hover,
+.scrollToTop:focus {
+    background-color: #fff;
+    color: #07a681;
+    border-color: 1px solid #07a681
+}
+.logo > span {
+    color: #07a681
+}
+.latest_newsarea span {
+    background: none repeat scroll 0 0 #07a681
+}
+#prev-button {
+    color: #07a681
+}
+#next-button {
+    color: #07a681
+}
+.spost_nav .media-body > a:hover {
+    color: #07a681
+}
+.cat-item a:hover {
+    background-color: #07a681
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+    background-color: #07a681
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    background-color: #07a681
+}
+.sidebar_item > ul > li a:hover {
+    color: #07a681
+}
+.tag_nav li a:hover {
+    color: #07a681;
+    border-color: #07a681
+}
+.copyright a:hover {
+    color: #07a681
+}
+.post_commentbox a:hover,
+.post_commentbox span:hover {
+    color: #07a681
+}
+.breadcrumb {
+    border-left: 10px solid #07a681
+}
+.nav-slit .icon-wrap {
+    background-color: #07a681
+}
+.nav-slit h3 {
+    background: #07a681
+}
+.catgArchive {
+    background-color: #07a681
+}
+.error_page > h3 {
+    color: #07a681
+}
+.error_page > span {
+    background: none repeat scroll 0 0 #07a681
+}
+.error_page > a {
+    background-color: #07a681
+}
+.contact_area > h2 {
+    background-color: #07a681
+}
+.contact_form input[type="submit"] {
+    background-color: #07a681
+}
+.contact_form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #07a681
+}
+.related_post > h2 i {
+    color: #07a681
+}
+.form-control:focus {
+    border-color: #07a681;
+    box-shadow: 0 0px 1px #07a681 inset, 0 0 5px #07a681
+}
